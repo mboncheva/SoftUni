@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Advanced\Matrices - Exercise\04.MaximalSum\bin\Debug\04.MaximalSum.exe.config
+D:\SOFTUNI\C#\C# Advanced\Matrices - Exercise\04.MaximalSum\bin\Debug\04.MaximalSum.exe
+D:\SOFTUNI\C#\C# Advanced\Matrices - Exercise\04.MaximalSum\bin\Debug\04.MaximalSum.pdb
+D:\SOFTUNI\C#\C# Advanced\Matrices - Exercise\04.MaximalSum\obj\Debug\04.MaximalSum.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\C#\C# Advanced\Matrices - Exercise\04.MaximalSum\obj\Debug\04.MaximalSum.exe
+D:\SOFTUNI\C#\C# Advanced\Matrices - Exercise\04.MaximalSum\obj\Debug\04.MaximalSum.pdb

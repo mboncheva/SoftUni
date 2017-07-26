@@ -1,0 +1,1 @@
+D:\SOFTUNI\C#\C# Advanced\LINQ  Exercise\OfficeStuff\bin\Debug\OfficeStuff.exe.config

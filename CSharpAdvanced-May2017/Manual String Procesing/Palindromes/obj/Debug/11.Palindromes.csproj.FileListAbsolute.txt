@@ -1,0 +1,5 @@
+D:\SOFTUNI\C#\C# Advanced\Manual String Processing Exercise\11.Palindromes\bin\Debug\11.Palindromes.exe.config
+D:\SOFTUNI\C#\C# Advanced\Manual String Processing Exercise\11.Palindromes\bin\Debug\11.Palindromes.exe
+D:\SOFTUNI\C#\C# Advanced\Manual String Processing Exercise\11.Palindromes\bin\Debug\11.Palindromes.pdb
+D:\SOFTUNI\C#\C# Advanced\Manual String Processing Exercise\11.Palindromes\obj\Debug\11.Palindromes.exe
+D:\SOFTUNI\C#\C# Advanced\Manual String Processing Exercise\11.Palindromes\obj\Debug\11.Palindromes.pdb

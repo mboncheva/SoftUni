@@ -1,0 +1,5 @@
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Lab\05.ExtractTags\bin\Debug\05.ExtractTags.exe.config
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Lab\05.ExtractTags\bin\Debug\05.ExtractTags.exe
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Lab\05.ExtractTags\bin\Debug\05.ExtractTags.pdb
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Lab\05.ExtractTags\obj\Debug\05.ExtractTags.exe
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Lab\05.ExtractTags\obj\Debug\05.ExtractTags.pdb

@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Advanced\Matrices - Lab\04.PascalTriangle\bin\Debug\04.PascalTriangle.exe.config
+D:\SOFTUNI\C#\C# Advanced\Matrices - Lab\04.PascalTriangle\bin\Debug\04.PascalTriangle.exe
+D:\SOFTUNI\C#\C# Advanced\Matrices - Lab\04.PascalTriangle\bin\Debug\04.PascalTriangle.pdb
+D:\SOFTUNI\C#\C# Advanced\Matrices - Lab\04.PascalTriangle\obj\Debug\04.PascalTriangle.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\C#\C# Advanced\Matrices - Lab\04.PascalTriangle\obj\Debug\04.PascalTriangle.exe
+D:\SOFTUNI\C#\C# Advanced\Matrices - Lab\04.PascalTriangle\obj\Debug\04.PascalTriangle.pdb

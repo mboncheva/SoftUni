@@ -1,0 +1,1 @@
+D:\SOFTUNI\C#\C# Advanced\Functional Programming Exercises\ListOfPredicates\bin\Debug\ListOfPredicates.exe.config

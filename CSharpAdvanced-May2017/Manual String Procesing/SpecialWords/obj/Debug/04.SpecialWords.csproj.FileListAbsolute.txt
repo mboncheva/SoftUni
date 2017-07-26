@@ -1,0 +1,5 @@
+D:\SOFTUNI\C#\C# Advanced\Manual String Processing Lab\04.SpecialWords\bin\Debug\04.SpecialWords.exe.config
+D:\SOFTUNI\C#\C# Advanced\Manual String Processing Lab\04.SpecialWords\bin\Debug\04.SpecialWords.exe
+D:\SOFTUNI\C#\C# Advanced\Manual String Processing Lab\04.SpecialWords\bin\Debug\04.SpecialWords.pdb
+D:\SOFTUNI\C#\C# Advanced\Manual String Processing Lab\04.SpecialWords\obj\Debug\04.SpecialWords.exe
+D:\SOFTUNI\C#\C# Advanced\Manual String Processing Lab\04.SpecialWords\obj\Debug\04.SpecialWords.pdb

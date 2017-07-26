@@ -1,0 +1,5 @@
+D:\SOFTUNI\C#\C# Advanced\LINQ  Exercise\GroupByGroup\bin\Debug\GroupByGroup.exe.config
+D:\SOFTUNI\C#\C# Advanced\LINQ  Exercise\GroupByGroup\bin\Debug\GroupByGroup.exe
+D:\SOFTUNI\C#\C# Advanced\LINQ  Exercise\GroupByGroup\bin\Debug\GroupByGroup.pdb
+D:\SOFTUNI\C#\C# Advanced\LINQ  Exercise\GroupByGroup\obj\Debug\GroupByGroup.exe
+D:\SOFTUNI\C#\C# Advanced\LINQ  Exercise\GroupByGroup\obj\Debug\GroupByGroup.pdb

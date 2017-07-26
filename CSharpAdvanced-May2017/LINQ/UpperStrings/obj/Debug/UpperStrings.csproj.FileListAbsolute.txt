@@ -1,0 +1,1 @@
+D:\SOFTUNI\C#\C# Advanced\LINQ  Lab\UpperStrings\bin\Debug\UpperStrings.exe.config

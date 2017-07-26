@@ -1,0 +1,5 @@
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Inheritance Lab\02.RandomList\bin\Debug\02.RandomList.exe.config
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Inheritance Lab\02.RandomList\bin\Debug\02.RandomList.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Inheritance Lab\02.RandomList\bin\Debug\02.RandomList.pdb
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Inheritance Lab\02.RandomList\obj\Debug\02.RandomList.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Inheritance Lab\02.RandomList\obj\Debug\02.RandomList.pdb

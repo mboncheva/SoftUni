@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Polymorphism\05.WildFarmESERCICES\bin\Debug\05.WildFarmESERCICES.exe.config
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Polymorphism\05.WildFarmESERCICES\obj\Debug\05.WildFarmESERCICES.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Polymorphism\05.WildFarmESERCICES\bin\Debug\05.WildFarmESERCICES.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Polymorphism\05.WildFarmESERCICES\bin\Debug\05.WildFarmESERCICES.pdb
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Polymorphism\05.WildFarmESERCICES\obj\Debug\05.WildFarmESERCICES.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Polymorphism\05.WildFarmESERCICES\obj\Debug\05.WildFarmESERCICES.pdb

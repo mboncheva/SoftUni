@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Advanced\Matrices - Lab\01.SumOfAllElementsOfMatrix\bin\Debug\01.SumOfAllElementsOfMatrix.exe.config
+D:\SOFTUNI\C#\C# Advanced\Matrices - Lab\01.SumOfAllElementsOfMatrix\bin\Debug\01.SumOfAllElementsOfMatrix.exe
+D:\SOFTUNI\C#\C# Advanced\Matrices - Lab\01.SumOfAllElementsOfMatrix\bin\Debug\01.SumOfAllElementsOfMatrix.pdb
+D:\SOFTUNI\C#\C# Advanced\Matrices - Lab\01.SumOfAllElementsOfMatrix\obj\Debug\01.SumOfAllElementsOfMatrix.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\C#\C# Advanced\Matrices - Lab\01.SumOfAllElementsOfMatrix\obj\Debug\01.SumOfAllElementsOfMatrix.exe
+D:\SOFTUNI\C#\C# Advanced\Matrices - Lab\01.SumOfAllElementsOfMatrix\obj\Debug\01.SumOfAllElementsOfMatrix.pdb

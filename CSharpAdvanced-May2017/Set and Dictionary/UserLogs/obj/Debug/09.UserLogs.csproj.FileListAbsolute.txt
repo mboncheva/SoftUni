@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\09.UserLogs\bin\Debug\09.UserLogs.exe.config
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\09.UserLogs\bin\Debug\09.UserLogs.exe
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\09.UserLogs\bin\Debug\09.UserLogs.pdb
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\09.UserLogs\obj\Debug\09.UserLogs.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\09.UserLogs\obj\Debug\09.UserLogs.exe
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\09.UserLogs\obj\Debug\09.UserLogs.pdb

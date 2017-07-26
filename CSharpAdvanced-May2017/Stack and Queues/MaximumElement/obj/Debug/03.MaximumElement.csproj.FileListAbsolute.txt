@@ -1,0 +1,1 @@
+D:\SOFTUNI\C#\C# Advanced\Stacks and Queues - Excercise\03.MaximumElement\bin\Debug\03.MaximumElement.exe.config

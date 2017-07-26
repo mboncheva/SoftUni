@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\06.AMiner'sTask\bin\Debug\06.AMiner'sTask.exe.config
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\06.AMiner'sTask\bin\Debug\06.AMiner'sTask.exe
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\06.AMiner'sTask\bin\Debug\06.AMiner'sTask.pdb
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\06.AMiner'sTask\obj\Debug\06.AMiner'sTask.exe
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\06.AMiner'sTask\obj\Debug\06.AMiner'sTask.pdb
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\06.AMiner'sTask\obj\Debug\06.AMiner'sTask.csprojResolveAssemblyReference.cache

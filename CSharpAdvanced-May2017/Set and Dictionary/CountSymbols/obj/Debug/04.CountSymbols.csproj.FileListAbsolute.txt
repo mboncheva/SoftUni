@@ -1,0 +1,5 @@
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\04.CountSymbols\bin\Debug\04.CountSymbols.exe.config
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\04.CountSymbols\bin\Debug\04.CountSymbols.exe
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\04.CountSymbols\bin\Debug\04.CountSymbols.pdb
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\04.CountSymbols\obj\Debug\04.CountSymbols.exe
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\04.CountSymbols\obj\Debug\04.CountSymbols.pdb

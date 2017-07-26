@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\08.HandsofCards\bin\Debug\08.HandsofCards.exe.config
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\08.HandsofCards\bin\Debug\08.HandsofCards.exe
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\08.HandsofCards\bin\Debug\08.HandsofCards.pdb
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\08.HandsofCards\obj\Debug\08.HandsofCards.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\08.HandsofCards\obj\Debug\08.HandsofCards.exe
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\08.HandsofCards\obj\Debug\08.HandsofCards.pdb

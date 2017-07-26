@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Advanced\Stacks and Queues - Excercise\06.TruckTour\bin\Debug\06.TruckTour.exe.config
+D:\SOFTUNI\C#\C# Advanced\Stacks and Queues - Excercise\06.TruckTour\bin\Debug\06.TruckTour.exe
+D:\SOFTUNI\C#\C# Advanced\Stacks and Queues - Excercise\06.TruckTour\bin\Debug\06.TruckTour.pdb
+D:\SOFTUNI\C#\C# Advanced\Stacks and Queues - Excercise\06.TruckTour\obj\Debug\06.TruckTour.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\C#\C# Advanced\Stacks and Queues - Excercise\06.TruckTour\obj\Debug\06.TruckTour.exe
+D:\SOFTUNI\C#\C# Advanced\Stacks and Queues - Excercise\06.TruckTour\obj\Debug\06.TruckTour.pdb

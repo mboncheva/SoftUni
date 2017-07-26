@@ -1,0 +1,5 @@
+D:\SOFTUNI\C#\C# Advanced\Matrices - Exercise\03.SquaresInMatrix\bin\Debug\03.SquaresInMatrix.exe.config
+D:\SOFTUNI\C#\C# Advanced\Matrices - Exercise\03.SquaresInMatrix\bin\Debug\03.SquaresInMatrix.exe
+D:\SOFTUNI\C#\C# Advanced\Matrices - Exercise\03.SquaresInMatrix\bin\Debug\03.SquaresInMatrix.pdb
+D:\SOFTUNI\C#\C# Advanced\Matrices - Exercise\03.SquaresInMatrix\obj\Debug\03.SquaresInMatrix.exe
+D:\SOFTUNI\C#\C# Advanced\Matrices - Exercise\03.SquaresInMatrix\obj\Debug\03.SquaresInMatrix.pdb

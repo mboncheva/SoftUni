@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Advanced\Matrices - Exercise\05.RubiksMatrix\bin\Debug\05.RubiksMatrix.exe.config
+D:\SOFTUNI\C#\C# Advanced\Matrices - Exercise\05.RubiksMatrix\bin\Debug\05.RubiksMatrix.exe
+D:\SOFTUNI\C#\C# Advanced\Matrices - Exercise\05.RubiksMatrix\bin\Debug\05.RubiksMatrix.pdb
+D:\SOFTUNI\C#\C# Advanced\Matrices - Exercise\05.RubiksMatrix\obj\Debug\05.RubiksMatrix.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\C#\C# Advanced\Matrices - Exercise\05.RubiksMatrix\obj\Debug\05.RubiksMatrix.exe
+D:\SOFTUNI\C#\C# Advanced\Matrices - Exercise\05.RubiksMatrix\obj\Debug\05.RubiksMatrix.pdb

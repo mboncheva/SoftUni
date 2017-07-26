@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Advanced\LINQ  Lab\AverageOfDoubles\bin\Debug\AverageOfDoubles.exe.config
+D:\SOFTUNI\C#\C# Advanced\LINQ  Lab\AverageOfDoubles\bin\Debug\AverageOfDoubles.exe
+D:\SOFTUNI\C#\C# Advanced\LINQ  Lab\AverageOfDoubles\bin\Debug\AverageOfDoubles.pdb
+D:\SOFTUNI\C#\C# Advanced\LINQ  Lab\AverageOfDoubles\obj\Debug\AverageOfDoubles.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\C#\C# Advanced\LINQ  Lab\AverageOfDoubles\obj\Debug\AverageOfDoubles.exe
+D:\SOFTUNI\C#\C# Advanced\LINQ  Lab\AverageOfDoubles\obj\Debug\AverageOfDoubles.pdb

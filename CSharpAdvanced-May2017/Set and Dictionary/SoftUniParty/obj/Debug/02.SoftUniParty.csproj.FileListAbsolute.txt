@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Lab\02.SoftUniParty\bin\Debug\02.SoftUniParty.exe.config
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Lab\02.SoftUniParty\bin\Debug\02.SoftUniParty.exe
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Lab\02.SoftUniParty\bin\Debug\02.SoftUniParty.pdb
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Lab\02.SoftUniParty\obj\Debug\02.SoftUniParty.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Lab\02.SoftUniParty\obj\Debug\02.SoftUniParty.exe
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Lab\02.SoftUniParty\obj\Debug\02.SoftUniParty.pdb

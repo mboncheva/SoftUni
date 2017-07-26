@@ -1,0 +1,5 @@
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\10.CarSalesman\bin\Debug\10.CarSalesman.exe.config
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\10.CarSalesman\bin\Debug\10.CarSalesman.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\10.CarSalesman\bin\Debug\10.CarSalesman.pdb
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\10.CarSalesman\obj\Debug\10.CarSalesman.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\10.CarSalesman\obj\Debug\10.CarSalesman.pdb

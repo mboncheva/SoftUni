@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\07.FixEmails\bin\Debug\07.FixEmails.exe.config
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\07.FixEmails\bin\Debug\07.FixEmails.exe
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\07.FixEmails\bin\Debug\07.FixEmails.pdb
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\07.FixEmails\obj\Debug\07.FixEmails.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\07.FixEmails\obj\Debug\07.FixEmails.exe
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\07.FixEmails\obj\Debug\07.FixEmails.pdb

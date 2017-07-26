@@ -1,0 +1,5 @@
+D:\SOFTUNI\C#\C# Advanced\Functional Programming Exercises\PredicateForNames\bin\Debug\PredicateForNames.exe.config
+D:\SOFTUNI\C#\C# Advanced\Functional Programming Exercises\PredicateForNames\bin\Debug\PredicateForNames.exe
+D:\SOFTUNI\C#\C# Advanced\Functional Programming Exercises\PredicateForNames\bin\Debug\PredicateForNames.pdb
+D:\SOFTUNI\C#\C# Advanced\Functional Programming Exercises\PredicateForNames\obj\Debug\PredicateForNames.exe
+D:\SOFTUNI\C#\C# Advanced\Functional Programming Exercises\PredicateForNames\obj\Debug\PredicateForNames.pdb

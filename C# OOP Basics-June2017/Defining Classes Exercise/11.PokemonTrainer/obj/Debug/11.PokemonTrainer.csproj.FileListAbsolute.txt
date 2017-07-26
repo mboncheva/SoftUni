@@ -1,0 +1,5 @@
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\11.PokemonTrainer\bin\Debug\11.PokemonTrainer.exe.config
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\11.PokemonTrainer\bin\Debug\11.PokemonTrainer.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\11.PokemonTrainer\bin\Debug\11.PokemonTrainer.pdb
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\11.PokemonTrainer\obj\Debug\11.PokemonTrainer.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\11.PokemonTrainer\obj\Debug\11.PokemonTrainer.pdb

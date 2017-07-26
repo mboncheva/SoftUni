@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Exercise\05.ExtractEmails\bin\Debug\05.ExtractEmails.exe.config
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Exercise\05.ExtractEmails\bin\Debug\05.ExtractEmails.exe
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Exercise\05.ExtractEmails\bin\Debug\05.ExtractEmails.pdb
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Exercise\05.ExtractEmails\obj\Debug\05.ExtractEmails.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Exercise\05.ExtractEmails\obj\Debug\05.ExtractEmails.exe
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Exercise\05.ExtractEmails\obj\Debug\05.ExtractEmails.pdb

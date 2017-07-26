@@ -1,0 +1,5 @@
+D:\SOFTUNI\C#\C# Advanced\Manual String Processing Exercise\05.ConvertFromBaseNtoBase10\bin\Debug\05.ConvertFromBaseNtoBase10.exe.config
+D:\SOFTUNI\C#\C# Advanced\Manual String Processing Exercise\05.ConvertFromBaseNtoBase10\bin\Debug\05.ConvertFromBaseNtoBase10.exe
+D:\SOFTUNI\C#\C# Advanced\Manual String Processing Exercise\05.ConvertFromBaseNtoBase10\bin\Debug\05.ConvertFromBaseNtoBase10.pdb
+D:\SOFTUNI\C#\C# Advanced\Manual String Processing Exercise\05.ConvertFromBaseNtoBase10\obj\Debug\05.ConvertFromBaseNtoBase10.exe
+D:\SOFTUNI\C#\C# Advanced\Manual String Processing Exercise\05.ConvertFromBaseNtoBase10\obj\Debug\05.ConvertFromBaseNtoBase10.pdb

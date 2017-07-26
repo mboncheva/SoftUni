@@ -1,0 +1,5 @@
+D:\SOFTUNI\C#\C# Advanced\LINQ  Exercise\StudentsByAge\bin\Debug\StudentsByAge.exe.config
+D:\SOFTUNI\C#\C# Advanced\LINQ  Exercise\StudentsByAge\bin\Debug\StudentsByAge.exe
+D:\SOFTUNI\C#\C# Advanced\LINQ  Exercise\StudentsByAge\bin\Debug\StudentsByAge.pdb
+D:\SOFTUNI\C#\C# Advanced\LINQ  Exercise\StudentsByAge\obj\Debug\StudentsByAge.exe
+D:\SOFTUNI\C#\C# Advanced\LINQ  Exercise\StudentsByAge\obj\Debug\StudentsByAge.pdb

@@ -1,0 +1,1 @@
+D:\SOFTUNI\C#\C# Advanced\LINQ  Lab\FirstName\bin\Debug\FirstName.exe.config

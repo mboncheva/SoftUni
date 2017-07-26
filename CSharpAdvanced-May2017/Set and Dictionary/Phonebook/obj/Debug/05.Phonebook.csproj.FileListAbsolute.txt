@@ -1,0 +1,5 @@
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\05.Phonebook\bin\Debug\05.Phonebook.exe.config
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\05.Phonebook\bin\Debug\05.Phonebook.exe
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\05.Phonebook\bin\Debug\05.Phonebook.pdb
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\05.Phonebook\obj\Debug\05.Phonebook.exe
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\05.Phonebook\obj\Debug\05.Phonebook.pdb

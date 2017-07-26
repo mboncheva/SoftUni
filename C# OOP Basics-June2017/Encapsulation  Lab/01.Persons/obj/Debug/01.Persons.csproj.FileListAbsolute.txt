@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Encapsulation  Lab\01.Persons\bin\Debug\01.Persons.exe.config
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Encapsulation  Lab\01.Persons\bin\Debug\01.Persons.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Encapsulation  Lab\01.Persons\bin\Debug\01.Persons.pdb
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Encapsulation  Lab\01.Persons\obj\Debug\01.Persons.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Encapsulation  Lab\01.Persons\obj\Debug\01.Persons.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Encapsulation  Lab\01.Persons\obj\Debug\01.Persons.pdb

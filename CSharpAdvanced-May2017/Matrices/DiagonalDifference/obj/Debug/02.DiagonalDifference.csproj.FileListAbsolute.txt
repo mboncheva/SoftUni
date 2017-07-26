@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Advanced\Matrices - Exercise\02.DiagonalDifference\bin\Debug\02.DiagonalDifference.exe.config
+D:\SOFTUNI\C#\C# Advanced\Matrices - Exercise\02.DiagonalDifference\bin\Debug\02.DiagonalDifference.exe
+D:\SOFTUNI\C#\C# Advanced\Matrices - Exercise\02.DiagonalDifference\bin\Debug\02.DiagonalDifference.pdb
+D:\SOFTUNI\C#\C# Advanced\Matrices - Exercise\02.DiagonalDifference\obj\Debug\02.DiagonalDifference.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\C#\C# Advanced\Matrices - Exercise\02.DiagonalDifference\obj\Debug\02.DiagonalDifference.exe
+D:\SOFTUNI\C#\C# Advanced\Matrices - Exercise\02.DiagonalDifference\obj\Debug\02.DiagonalDifference.pdb

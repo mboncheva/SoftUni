@@ -1,0 +1,5 @@
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\05.DateModifier\bin\Debug\05.DateModifier.exe.config
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\05.DateModifier\bin\Debug\05.DateModifier.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\05.DateModifier\bin\Debug\05.DateModifier.pdb
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\05.DateModifier\obj\Debug\05.DateModifier.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\05.DateModifier\obj\Debug\05.DateModifier.pdb

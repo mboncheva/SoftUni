@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Encapsulation  Lab\02.Salary\bin\Debug\02.Salary.exe.config
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Encapsulation  Lab\02.Salary\bin\Debug\02.Salary.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Encapsulation  Lab\02.Salary\bin\Debug\02.Salary.pdb
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Encapsulation  Lab\02.Salary\obj\Debug\02.Salary.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Encapsulation  Lab\02.Salary\obj\Debug\02.Salary.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Encapsulation  Lab\02.Salary\obj\Debug\02.Salary.pdb

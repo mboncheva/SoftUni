@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Polymorphism\01.MathOperationsLab\bin\Debug\01.MathOperationsLab.exe.config
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Polymorphism\01.MathOperationsLab\bin\Debug\01.MathOperationsLab.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Polymorphism\01.MathOperationsLab\bin\Debug\01.MathOperationsLab.pdb
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Polymorphism\01.MathOperationsLab\obj\Debug\01.MathOperationsLab.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Polymorphism\01.MathOperationsLab\obj\Debug\01.MathOperationsLab.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Polymorphism\01.MathOperationsLab\obj\Debug\01.MathOperationsLab.pdb

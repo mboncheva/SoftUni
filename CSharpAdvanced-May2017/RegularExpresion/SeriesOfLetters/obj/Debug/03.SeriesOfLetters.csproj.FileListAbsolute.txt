@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Exercise\03.SeriesOfLetters\bin\Debug\03.SeriesOfLetters.exe.config
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Exercise\03.SeriesOfLetters\bin\Debug\03.SeriesOfLetters.exe
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Exercise\03.SeriesOfLetters\bin\Debug\03.SeriesOfLetters.pdb
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Exercise\03.SeriesOfLetters\obj\Debug\03.SeriesOfLetters.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Exercise\03.SeriesOfLetters\obj\Debug\03.SeriesOfLetters.exe
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Exercise\03.SeriesOfLetters\obj\Debug\03.SeriesOfLetters.pdb

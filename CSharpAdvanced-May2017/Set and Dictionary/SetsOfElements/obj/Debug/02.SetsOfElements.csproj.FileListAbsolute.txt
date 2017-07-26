@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\02.SetsOfElements\bin\Debug\02.SetsOfElements.exe.config
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\02.SetsOfElements\bin\Debug\02.SetsOfElements.exe
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\02.SetsOfElements\bin\Debug\02.SetsOfElements.pdb
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\02.SetsOfElements\obj\Debug\02.SetsOfElements.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\02.SetsOfElements\obj\Debug\02.SetsOfElements.exe
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\02.SetsOfElements\obj\Debug\02.SetsOfElements.pdb

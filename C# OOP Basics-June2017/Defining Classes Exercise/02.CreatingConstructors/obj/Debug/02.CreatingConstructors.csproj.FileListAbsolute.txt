@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\02.CreatingConstructors\bin\Debug\02.CreatingConstructors.exe.config
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\02.CreatingConstructors\obj\Debug\02.CreatingConstructors.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\02.CreatingConstructors\bin\Debug\02.CreatingConstructors.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\02.CreatingConstructors\bin\Debug\02.CreatingConstructors.pdb
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\02.CreatingConstructors\obj\Debug\02.CreatingConstructors.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\02.CreatingConstructors\obj\Debug\02.CreatingConstructors.pdb

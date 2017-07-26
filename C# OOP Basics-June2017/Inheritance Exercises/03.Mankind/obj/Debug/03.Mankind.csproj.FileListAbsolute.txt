@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Inheritance Exercises\03.Mankind\bin\Debug\03.Mankind.exe.config
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Inheritance Exercises\03.Mankind\bin\Debug\03.Mankind.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Inheritance Exercises\03.Mankind\bin\Debug\03.Mankind.pdb
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Inheritance Exercises\03.Mankind\obj\Debug\03.Mankind.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Inheritance Exercises\03.Mankind\obj\Debug\03.Mankind.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Inheritance Exercises\03.Mankind\obj\Debug\03.Mankind.pdb

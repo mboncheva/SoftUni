@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Inheritance Lab\01.SingleInheritance\bin\Debug\01.SingleInheritance.exe.config
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Inheritance Lab\01.SingleInheritance\bin\Debug\01.SingleInheritance.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Inheritance Lab\01.SingleInheritance\bin\Debug\01.SingleInheritance.pdb
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Inheritance Lab\01.SingleInheritance\obj\Debug\01.SingleInheritance.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Inheritance Lab\01.SingleInheritance\obj\Debug\01.SingleInheritance.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Inheritance Lab\01.SingleInheritance\obj\Debug\01.SingleInheritance.pdb

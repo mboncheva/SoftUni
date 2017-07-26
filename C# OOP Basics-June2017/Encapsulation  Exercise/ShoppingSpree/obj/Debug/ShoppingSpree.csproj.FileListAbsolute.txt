@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Encapsulation  Exercise\ShoppingSpree\bin\Debug\ShoppingSpree.exe.config
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Encapsulation  Exercise\ShoppingSpree\bin\Debug\ShoppingSpree.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Encapsulation  Exercise\ShoppingSpree\bin\Debug\ShoppingSpree.pdb
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Encapsulation  Exercise\ShoppingSpree\obj\Debug\ShoppingSpree.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Encapsulation  Exercise\ShoppingSpree\obj\Debug\ShoppingSpree.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Encapsulation  Exercise\ShoppingSpree\obj\Debug\ShoppingSpree.pdb

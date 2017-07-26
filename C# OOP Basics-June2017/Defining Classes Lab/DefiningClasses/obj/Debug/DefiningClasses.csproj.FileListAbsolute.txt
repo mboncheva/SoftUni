@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Lab\DefiningClasses\bin\Debug\DefiningClasses.exe.config
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Lab\DefiningClasses\bin\Debug\DefiningClasses.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Lab\DefiningClasses\bin\Debug\DefiningClasses.pdb
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Lab\DefiningClasses\obj\Debug\DefiningClasses.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Lab\DefiningClasses\obj\Debug\DefiningClasses.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Lab\DefiningClasses\obj\Debug\DefiningClasses.pdb

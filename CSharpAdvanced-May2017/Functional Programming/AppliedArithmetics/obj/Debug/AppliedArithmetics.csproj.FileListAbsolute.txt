@@ -1,0 +1,5 @@
+D:\SOFTUNI\C#\C# Advanced\Functional Programming Exercises\AppliedArithmetics\bin\Debug\AppliedArithmetics.exe.config
+D:\SOFTUNI\C#\C# Advanced\Functional Programming Exercises\AppliedArithmetics\bin\Debug\AppliedArithmetics.exe
+D:\SOFTUNI\C#\C# Advanced\Functional Programming Exercises\AppliedArithmetics\bin\Debug\AppliedArithmetics.pdb
+D:\SOFTUNI\C#\C# Advanced\Functional Programming Exercises\AppliedArithmetics\obj\Debug\AppliedArithmetics.exe
+D:\SOFTUNI\C#\C# Advanced\Functional Programming Exercises\AppliedArithmetics\obj\Debug\AppliedArithmetics.pdb

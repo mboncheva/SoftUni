@@ -1,0 +1,5 @@
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\03.PeriodicTable\bin\Debug\03.PeriodicTable.exe.config
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\03.PeriodicTable\bin\Debug\03.PeriodicTable.exe
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\03.PeriodicTable\bin\Debug\03.PeriodicTable.pdb
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\03.PeriodicTable\obj\Debug\03.PeriodicTable.exe
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\03.PeriodicTable\obj\Debug\03.PeriodicTable.pdb

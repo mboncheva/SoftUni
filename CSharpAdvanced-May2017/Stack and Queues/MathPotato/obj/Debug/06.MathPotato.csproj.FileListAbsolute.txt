@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Advanced\Stacks and Queues - Lab\06.MathPotato\bin\Debug\06.MathPotato.exe.config
+D:\SOFTUNI\C#\C# Advanced\Stacks and Queues - Lab\06.MathPotato\obj\Debug\06.MathPotato.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\C#\C# Advanced\Stacks and Queues - Lab\06.MathPotato\bin\Debug\06.MathPotato.exe
+D:\SOFTUNI\C#\C# Advanced\Stacks and Queues - Lab\06.MathPotato\bin\Debug\06.MathPotato.pdb
+D:\SOFTUNI\C#\C# Advanced\Stacks and Queues - Lab\06.MathPotato\obj\Debug\06.MathPotato.exe
+D:\SOFTUNI\C#\C# Advanced\Stacks and Queues - Lab\06.MathPotato\obj\Debug\06.MathPotato.pdb

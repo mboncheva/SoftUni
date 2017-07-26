@@ -1,0 +1,5 @@
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Lab\02.VowelCount\bin\Debug\02.VowelCount.exe.config
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Lab\02.VowelCount\bin\Debug\02.VowelCount.exe
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Lab\02.VowelCount\bin\Debug\02.VowelCount.pdb
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Lab\02.VowelCount\obj\Debug\02.VowelCount.exe
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Lab\02.VowelCount\obj\Debug\02.VowelCount.pdb

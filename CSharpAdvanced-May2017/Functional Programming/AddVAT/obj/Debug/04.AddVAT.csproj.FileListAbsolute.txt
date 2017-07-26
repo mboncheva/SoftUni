@@ -1,0 +1,5 @@
+D:\SOFTUNI\C#\C# Advanced\Functional Programming  Lab\04.AddVAT\bin\Debug\04.AddVAT.exe.config
+D:\SOFTUNI\C#\C# Advanced\Functional Programming  Lab\04.AddVAT\bin\Debug\04.AddVAT.exe
+D:\SOFTUNI\C#\C# Advanced\Functional Programming  Lab\04.AddVAT\bin\Debug\04.AddVAT.pdb
+D:\SOFTUNI\C#\C# Advanced\Functional Programming  Lab\04.AddVAT\obj\Debug\04.AddVAT.exe
+D:\SOFTUNI\C#\C# Advanced\Functional Programming  Lab\04.AddVAT\obj\Debug\04.AddVAT.pdb

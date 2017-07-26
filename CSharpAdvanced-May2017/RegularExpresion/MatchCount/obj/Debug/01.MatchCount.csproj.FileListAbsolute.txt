@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Lab\01.MatchCount\bin\Debug\01.MatchCount.exe.config
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Lab\01.MatchCount\bin\Debug\01.MatchCount.exe
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Lab\01.MatchCount\bin\Debug\01.MatchCount.pdb
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Lab\01.MatchCount\obj\Debug\01.MatchCount.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Lab\01.MatchCount\obj\Debug\01.MatchCount.exe
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Lab\01.MatchCount\obj\Debug\01.MatchCount.pdb

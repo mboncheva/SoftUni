@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Exercise\09.QueryMess\bin\Debug\09.QueryMess.exe.config
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Exercise\09.QueryMess\bin\Debug\09.QueryMess.exe
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Exercise\09.QueryMess\bin\Debug\09.QueryMess.pdb
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Exercise\09.QueryMess\obj\Debug\09.QueryMess.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Exercise\09.QueryMess\obj\Debug\09.QueryMess.exe
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Exercise\09.QueryMess\obj\Debug\09.QueryMess.pdb

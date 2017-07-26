@@ -1,0 +1,5 @@
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Inheritance Exercises\02.BookShop\bin\Debug\02.BookShop.exe.config
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Inheritance Exercises\02.BookShop\bin\Debug\02.BookShop.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Inheritance Exercises\02.BookShop\bin\Debug\02.BookShop.pdb
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Inheritance Exercises\02.BookShop\obj\Debug\02.BookShop.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Inheritance Exercises\02.BookShop\obj\Debug\02.BookShop.pdb

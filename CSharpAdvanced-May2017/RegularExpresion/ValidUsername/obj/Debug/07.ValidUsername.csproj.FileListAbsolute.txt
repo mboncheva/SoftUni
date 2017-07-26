@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Exercise\07.ValidUsername\bin\Debug\07.ValidUsername.exe.config
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Exercise\07.ValidUsername\bin\Debug\07.ValidUsername.exe
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Exercise\07.ValidUsername\bin\Debug\07.ValidUsername.pdb
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Exercise\07.ValidUsername\obj\Debug\07.ValidUsername.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Exercise\07.ValidUsername\obj\Debug\07.ValidUsername.exe
+D:\SOFTUNI\C#\C# Advanced\Regular Expressions  Exercise\07.ValidUsername\obj\Debug\07.ValidUsername.pdb

@@ -1,0 +1,5 @@
+D:\SOFTUNI\C#\C# Advanced\Manual String Processing Exercise\09.TextFilter\bin\Debug\09.TextFilter.exe.config
+D:\SOFTUNI\C#\C# Advanced\Manual String Processing Exercise\09.TextFilter\bin\Debug\09.TextFilter.exe
+D:\SOFTUNI\C#\C# Advanced\Manual String Processing Exercise\09.TextFilter\bin\Debug\09.TextFilter.pdb
+D:\SOFTUNI\C#\C# Advanced\Manual String Processing Exercise\09.TextFilter\obj\Debug\09.TextFilter.exe
+D:\SOFTUNI\C#\C# Advanced\Manual String Processing Exercise\09.TextFilter\obj\Debug\09.TextFilter.pdb

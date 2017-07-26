@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\01.DefineAClassPerson\bin\Debug\01.DefineAClassPerson.exe.config
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\01.DefineAClassPerson\bin\Debug\01.DefineAClassPerson.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\01.DefineAClassPerson\bin\Debug\01.DefineAClassPerson.pdb
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\01.DefineAClassPerson\obj\Debug\01.DefineAClassPerson.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\01.DefineAClassPerson\obj\Debug\01.DefineAClassPerson.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\01.DefineAClassPerson\obj\Debug\01.DefineAClassPerson.pdb

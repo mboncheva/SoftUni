@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Inheritance Exercises\01.Person\bin\Debug\01.Person.exe.config
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Inheritance Exercises\01.Person\bin\Debug\01.Person.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Inheritance Exercises\01.Person\bin\Debug\01.Person.pdb
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Inheritance Exercises\01.Person\obj\Debug\01.Person.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Inheritance Exercises\01.Person\obj\Debug\01.Person.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Inheritance Exercises\01.Person\obj\Debug\01.Person.pdb

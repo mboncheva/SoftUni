@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\09.RectangleIntersection\bin\Debug\09.RectangleIntersection.exe.config
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\09.RectangleIntersection\obj\Debug\09.RectangleIntersection.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\09.RectangleIntersection\bin\Debug\09.RectangleIntersection.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\09.RectangleIntersection\bin\Debug\09.RectangleIntersection.pdb
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\09.RectangleIntersection\obj\Debug\09.RectangleIntersection.exe
+D:\SOFTUNI\C#\C# Web Developer\C# Fundamentals\C# OOP Basics\Defining Classes Exercise\09.RectangleIntersection\obj\Debug\09.RectangleIntersection.pdb

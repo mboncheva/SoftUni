@@ -1,0 +1,6 @@
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\11.LogsAggregator\bin\Debug\11.LogsAggregator.exe.config
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\11.LogsAggregator\bin\Debug\11.LogsAggregator.exe
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\11.LogsAggregator\bin\Debug\11.LogsAggregator.pdb
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\11.LogsAggregator\obj\Debug\11.LogsAggregator.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\11.LogsAggregator\obj\Debug\11.LogsAggregator.exe
+D:\SOFTUNI\C#\C# Advanced\Sets and Dictionaries - Excercise\11.LogsAggregator\obj\Debug\11.LogsAggregator.pdb
