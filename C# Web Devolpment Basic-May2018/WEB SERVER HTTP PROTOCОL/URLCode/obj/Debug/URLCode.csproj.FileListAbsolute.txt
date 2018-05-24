@@ -1,0 +1,7 @@
+D:\SOFTUNI!!!\C#\C# Web Developer\C# WEB\C# Web Development Basics\WEB SERVER HTTP PROTOCОL\URLCode\bin\Debug\URLCode.exe.config
+D:\SOFTUNI!!!\C#\C# Web Developer\C# WEB\C# Web Development Basics\WEB SERVER HTTP PROTOCОL\URLCode\bin\Debug\URLCode.exe
+D:\SOFTUNI!!!\C#\C# Web Developer\C# WEB\C# Web Development Basics\WEB SERVER HTTP PROTOCОL\URLCode\bin\Debug\URLCode.pdb
+D:\SOFTUNI!!!\C#\C# Web Developer\C# WEB\C# Web Development Basics\WEB SERVER HTTP PROTOCОL\URLCode\obj\Debug\URLCode.csprojAssemblyReference.cache
+D:\SOFTUNI!!!\C#\C# Web Developer\C# WEB\C# Web Development Basics\WEB SERVER HTTP PROTOCОL\URLCode\obj\Debug\URLCode.csproj.CoreCompileInputs.cache
+D:\SOFTUNI!!!\C#\C# Web Developer\C# WEB\C# Web Development Basics\WEB SERVER HTTP PROTOCОL\URLCode\obj\Debug\URLCode.exe
+D:\SOFTUNI!!!\C#\C# Web Developer\C# WEB\C# Web Development Basics\WEB SERVER HTTP PROTOCОL\URLCode\obj\Debug\URLCode.pdb
