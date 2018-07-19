@@ -70,6 +70,19 @@ namespace MyWebServer.ByTheCakeApplication.Data.Migrations
                     b.ToTable("Products");
                 });
 
+            modelBuilder.Entity("MyWebServer.ByTheCakeApplication.Data.Models.Test", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Name");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tests");
+                });
+
             modelBuilder.Entity("MyWebServer.ByTheCakeApplication.Data.Models.User", b =>
                 {
                     b.Property<int>("Id")

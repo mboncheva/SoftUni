@@ -13,11 +13,11 @@
 
         public DbSet<OrderProduct> OrderProducts { get; set; }
 
+        public DbSet<Test> Tests { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder builder)
         {
-            const string connString = @"Data Source=.\SQLEXPRESS;Database=ByTheCakeDb;Integrated Security=True;";
-            builder
-                .UseSqlServer(connString);
+          
            
         }
 

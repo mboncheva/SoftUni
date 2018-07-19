@@ -11,6 +11,7 @@
         [MaxLength(30)]
         public string Name { get; set; }
 
+        [DataType(DataType.Currency)]
         public decimal Price { get; set; }
 
         [Required]
