@@ -112,7 +112,7 @@
         {
             if (!this.Request.Cookies.ContainsCookie(".auth-cakes"))
             {
-                return new RedirectResult("/");
+                return this.Redirect("/");
             }
 
             var cookie = this.Request.Cookies.GetCookie(".auth-cakes");

@@ -1,0 +1,9 @@
+D:\SoftUni\C# Web Devolpment Basic-May2018\07.INTRODUCTION TO MVC. CREATING MVC FRAMEWORK\SIS\Services\bin\Debug\netcoreapp2.0\Services.deps.json
+D:\SoftUni\C# Web Devolpment Basic-May2018\07.INTRODUCTION TO MVC. CREATING MVC FRAMEWORK\SIS\Services\bin\Debug\netcoreapp2.0\Services.dll
+D:\SoftUni\C# Web Devolpment Basic-May2018\07.INTRODUCTION TO MVC. CREATING MVC FRAMEWORK\SIS\Services\bin\Debug\netcoreapp2.0\Services.pdb
+D:\SoftUni\C# Web Devolpment Basic-May2018\07.INTRODUCTION TO MVC. CREATING MVC FRAMEWORK\SIS\Services\obj\Debug\netcoreapp2.0\Services.csprojAssemblyReference.cache
+D:\SoftUni\C# Web Devolpment Basic-May2018\07.INTRODUCTION TO MVC. CREATING MVC FRAMEWORK\SIS\Services\obj\Debug\netcoreapp2.0\Services.csproj.CoreCompileInputs.cache
+D:\SoftUni\C# Web Devolpment Basic-May2018\07.INTRODUCTION TO MVC. CREATING MVC FRAMEWORK\SIS\Services\obj\Debug\netcoreapp2.0\Services.AssemblyInfoInputs.cache
+D:\SoftUni\C# Web Devolpment Basic-May2018\07.INTRODUCTION TO MVC. CREATING MVC FRAMEWORK\SIS\Services\obj\Debug\netcoreapp2.0\Services.AssemblyInfo.cs
+D:\SoftUni\C# Web Devolpment Basic-May2018\07.INTRODUCTION TO MVC. CREATING MVC FRAMEWORK\SIS\Services\obj\Debug\netcoreapp2.0\Services.dll
+D:\SoftUni\C# Web Devolpment Basic-May2018\07.INTRODUCTION TO MVC. CREATING MVC FRAMEWORK\SIS\Services\obj\Debug\netcoreapp2.0\Services.pdb

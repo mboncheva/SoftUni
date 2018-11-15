@@ -6,7 +6,6 @@
     using SIS.MvcFramework.Services;
     using SIS.WebServer.Results;
     using System.Collections.Generic;
-    using System.IO;
 
     public class Controller
     {
@@ -42,6 +41,21 @@
 
             var allContent = this.GetViewContent(viewName, viewBag);
             return new HtmlResult(allContent, HttpResponseStatusCode.Ok);
+        }
+
+        protected IHttpResponse File(byte[] content)
+        {
+            return new FileResult(content);
+        }
+
+        protected IHttpResponse Redirect(string location)
+        {
+            return new RedirectResult(location);
+        }
+
+        protected IHttpResponse Text(string content)
+        {
+            return new TextResult(content, HttpResponseStatusCode.Ok);
         }
 
         protected IHttpResponse BadRequestError(string errorMessage)
