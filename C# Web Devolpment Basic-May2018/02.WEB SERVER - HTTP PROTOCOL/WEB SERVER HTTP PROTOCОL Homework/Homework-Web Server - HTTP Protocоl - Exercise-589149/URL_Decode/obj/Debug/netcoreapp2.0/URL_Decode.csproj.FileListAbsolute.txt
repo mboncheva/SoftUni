@@ -1,0 +1,11 @@
+C:\Projects\C#_Web\C#_Web_Development_Basics_May_2018\WebServer_HTTP Protocоl_Exercise\URL_Decode\bin\Debug\netcoreapp2.0\URL_Decode.deps.json
+C:\Projects\C#_Web\C#_Web_Development_Basics_May_2018\WebServer_HTTP Protocоl_Exercise\URL_Decode\bin\Debug\netcoreapp2.0\URL_Decode.runtimeconfig.json
+C:\Projects\C#_Web\C#_Web_Development_Basics_May_2018\WebServer_HTTP Protocоl_Exercise\URL_Decode\bin\Debug\netcoreapp2.0\URL_Decode.runtimeconfig.dev.json
+C:\Projects\C#_Web\C#_Web_Development_Basics_May_2018\WebServer_HTTP Protocоl_Exercise\URL_Decode\bin\Debug\netcoreapp2.0\URL_Decode.dll
+C:\Projects\C#_Web\C#_Web_Development_Basics_May_2018\WebServer_HTTP Protocоl_Exercise\URL_Decode\bin\Debug\netcoreapp2.0\URL_Decode.pdb
+C:\Projects\C#_Web\C#_Web_Development_Basics_May_2018\WebServer_HTTP Protocоl_Exercise\URL_Decode\obj\Debug\netcoreapp2.0\URL_Decode.csprojAssemblyReference.cache
+C:\Projects\C#_Web\C#_Web_Development_Basics_May_2018\WebServer_HTTP Protocоl_Exercise\URL_Decode\obj\Debug\netcoreapp2.0\URL_Decode.csproj.CoreCompileInputs.cache
+C:\Projects\C#_Web\C#_Web_Development_Basics_May_2018\WebServer_HTTP Protocоl_Exercise\URL_Decode\obj\Debug\netcoreapp2.0\URL_Decode.AssemblyInfoInputs.cache
+C:\Projects\C#_Web\C#_Web_Development_Basics_May_2018\WebServer_HTTP Protocоl_Exercise\URL_Decode\obj\Debug\netcoreapp2.0\URL_Decode.AssemblyInfo.cs
+C:\Projects\C#_Web\C#_Web_Development_Basics_May_2018\WebServer_HTTP Protocоl_Exercise\URL_Decode\obj\Debug\netcoreapp2.0\URL_Decode.dll
+C:\Projects\C#_Web\C#_Web_Development_Basics_May_2018\WebServer_HTTP Protocоl_Exercise\URL_Decode\obj\Debug\netcoreapp2.0\URL_Decode.pdb

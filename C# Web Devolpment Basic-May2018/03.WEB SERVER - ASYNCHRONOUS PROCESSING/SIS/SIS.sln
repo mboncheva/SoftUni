@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SIS.HTTP", "SIS.HTTP\SIS.HTTP.csproj", "{6BC16686-51C9-4AC3-983A-B8A1AAC597F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SIS.WebServer", "SIS.WebServer\SIS.WebServer.csproj", "{90AD6BA8-818A-4B73-B509-8438BA3AB912}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIS.Demo", "SIS.Demo\SIS.Demo.csproj", "{4E0AA5BF-DB4B-430B-8EC1-8885B7DCBBF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BC16686-51C9-4AC3-983A-B8A1AAC597F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BC16686-51C9-4AC3-983A-B8A1AAC597F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BC16686-51C9-4AC3-983A-B8A1AAC597F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BC16686-51C9-4AC3-983A-B8A1AAC597F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90AD6BA8-818A-4B73-B509-8438BA3AB912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90AD6BA8-818A-4B73-B509-8438BA3AB912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90AD6BA8-818A-4B73-B509-8438BA3AB912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90AD6BA8-818A-4B73-B509-8438BA3AB912}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E0AA5BF-DB4B-430B-8EC1-8885B7DCBBF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E0AA5BF-DB4B-430B-8EC1-8885B7DCBBF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E0AA5BF-DB4B-430B-8EC1-8885B7DCBBF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E0AA5BF-DB4B-430B-8EC1-8885B7DCBBF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {462354F7-DC31-4084-9457-CB58BE03A4B4}
+	EndGlobalSection
+EndGlobal

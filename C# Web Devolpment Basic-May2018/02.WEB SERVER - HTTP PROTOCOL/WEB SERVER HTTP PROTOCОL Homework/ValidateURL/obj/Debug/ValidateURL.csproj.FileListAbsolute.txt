@@ -1,0 +1,7 @@
+D:\SOFTUNI!!!\C#\C# Web Developer\C# WEB\C# Web Development Basics\WEB SERVER HTTP PROTOCОL\ValidateURL\bin\Debug\ValidateURL.exe.config
+D:\SOFTUNI!!!\C#\C# Web Developer\C# WEB\C# Web Development Basics\WEB SERVER HTTP PROTOCОL\ValidateURL\bin\Debug\ValidateURL.exe
+D:\SOFTUNI!!!\C#\C# Web Developer\C# WEB\C# Web Development Basics\WEB SERVER HTTP PROTOCОL\ValidateURL\bin\Debug\ValidateURL.pdb
+D:\SOFTUNI!!!\C#\C# Web Developer\C# WEB\C# Web Development Basics\WEB SERVER HTTP PROTOCОL\ValidateURL\obj\Debug\ValidateURL.csprojAssemblyReference.cache
+D:\SOFTUNI!!!\C#\C# Web Developer\C# WEB\C# Web Development Basics\WEB SERVER HTTP PROTOCОL\ValidateURL\obj\Debug\ValidateURL.csproj.CoreCompileInputs.cache
+D:\SOFTUNI!!!\C#\C# Web Developer\C# WEB\C# Web Development Basics\WEB SERVER HTTP PROTOCОL\ValidateURL\obj\Debug\ValidateURL.exe
+D:\SOFTUNI!!!\C#\C# Web Developer\C# WEB\C# Web Development Basics\WEB SERVER HTTP PROTOCОL\ValidateURL\obj\Debug\ValidateURL.pdb

@@ -1,0 +1,7 @@
+D:\SOFTUNI!!!\C#\C# Web Developer\C# WEB\C# Web Development Basics\WEB SERVER HTTP PROTOCОL\RequestParser\bin\Debug\RequestParser.exe.config
+D:\SOFTUNI!!!\C#\C# Web Developer\C# WEB\C# Web Development Basics\WEB SERVER HTTP PROTOCОL\RequestParser\bin\Debug\RequestParser.exe
+D:\SOFTUNI!!!\C#\C# Web Developer\C# WEB\C# Web Development Basics\WEB SERVER HTTP PROTOCОL\RequestParser\bin\Debug\RequestParser.pdb
+D:\SOFTUNI!!!\C#\C# Web Developer\C# WEB\C# Web Development Basics\WEB SERVER HTTP PROTOCОL\RequestParser\obj\Debug\RequestParser.csprojAssemblyReference.cache
+D:\SOFTUNI!!!\C#\C# Web Developer\C# WEB\C# Web Development Basics\WEB SERVER HTTP PROTOCОL\RequestParser\obj\Debug\RequestParser.csproj.CoreCompileInputs.cache
+D:\SOFTUNI!!!\C#\C# Web Developer\C# WEB\C# Web Development Basics\WEB SERVER HTTP PROTOCОL\RequestParser\obj\Debug\RequestParser.exe
+D:\SOFTUNI!!!\C#\C# Web Developer\C# WEB\C# Web Development Basics\WEB SERVER HTTP PROTOCОL\RequestParser\obj\Debug\RequestParser.pdb

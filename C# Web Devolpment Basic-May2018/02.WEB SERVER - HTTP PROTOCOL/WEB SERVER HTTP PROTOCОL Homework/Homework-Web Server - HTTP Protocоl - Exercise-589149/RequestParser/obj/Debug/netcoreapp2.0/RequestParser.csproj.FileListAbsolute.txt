@@ -1,0 +1,11 @@
+C:\Projects\C#_Web\C#_Web_Development_Basics_May_2018\WebServer_HTTP Protocоl_Exercise\RequestParser\bin\Debug\netcoreapp2.0\RequestParser.deps.json
+C:\Projects\C#_Web\C#_Web_Development_Basics_May_2018\WebServer_HTTP Protocоl_Exercise\RequestParser\bin\Debug\netcoreapp2.0\RequestParser.runtimeconfig.json
+C:\Projects\C#_Web\C#_Web_Development_Basics_May_2018\WebServer_HTTP Protocоl_Exercise\RequestParser\bin\Debug\netcoreapp2.0\RequestParser.runtimeconfig.dev.json
+C:\Projects\C#_Web\C#_Web_Development_Basics_May_2018\WebServer_HTTP Protocоl_Exercise\RequestParser\bin\Debug\netcoreapp2.0\RequestParser.dll
+C:\Projects\C#_Web\C#_Web_Development_Basics_May_2018\WebServer_HTTP Protocоl_Exercise\RequestParser\bin\Debug\netcoreapp2.0\RequestParser.pdb
+C:\Projects\C#_Web\C#_Web_Development_Basics_May_2018\WebServer_HTTP Protocоl_Exercise\RequestParser\obj\Debug\netcoreapp2.0\RequestParser.csprojAssemblyReference.cache
+C:\Projects\C#_Web\C#_Web_Development_Basics_May_2018\WebServer_HTTP Protocоl_Exercise\RequestParser\obj\Debug\netcoreapp2.0\RequestParser.csproj.CoreCompileInputs.cache
+C:\Projects\C#_Web\C#_Web_Development_Basics_May_2018\WebServer_HTTP Protocоl_Exercise\RequestParser\obj\Debug\netcoreapp2.0\RequestParser.AssemblyInfoInputs.cache
+C:\Projects\C#_Web\C#_Web_Development_Basics_May_2018\WebServer_HTTP Protocоl_Exercise\RequestParser\obj\Debug\netcoreapp2.0\RequestParser.AssemblyInfo.cs
+C:\Projects\C#_Web\C#_Web_Development_Basics_May_2018\WebServer_HTTP Protocоl_Exercise\RequestParser\obj\Debug\netcoreapp2.0\RequestParser.dll
+C:\Projects\C#_Web\C#_Web_Development_Basics_May_2018\WebServer_HTTP Protocоl_Exercise\RequestParser\obj\Debug\netcoreapp2.0\RequestParser.pdb
