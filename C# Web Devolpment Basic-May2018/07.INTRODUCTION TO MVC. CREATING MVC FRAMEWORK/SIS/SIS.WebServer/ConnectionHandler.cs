@@ -1,21 +1,20 @@
-﻿using System;
-using System.IO;
-using System.Linq;
-using System.Net.Sockets;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
-using SIS.HTTP.Cookies;
-using SIS.HTTP.Enums;
-namespace SIS.WebServer
+﻿namespace SIS.WebServer
 {
+    using System;
+    using System.IO;
+    using System.Linq;
+    using System.Net.Sockets;
+    using System.Text;
+    using System.Threading.Tasks;
+    using SIS.HTTP.Cookies;
+    using SIS.HTTP.Enums;
     using HTTP.Common;
     using HTTP.Exceptions;
     using HTTP.Requests;
     using HTTP.Responses;
     using HTTP.Sessions;
-    using Results;
     using Routing;
+    using SIS.WebServer.Results;
 
     public class ConnectionHandler
     {

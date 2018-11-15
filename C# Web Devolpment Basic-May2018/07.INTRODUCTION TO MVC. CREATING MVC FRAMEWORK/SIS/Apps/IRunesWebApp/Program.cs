@@ -1,11 +1,11 @@
-﻿using IRunesWebApp.Controllers;
-using SIS.HTTP.Enums;
-using SIS.WebServer;
-using SIS.WebServer.Results;
-using SIS.WebServer.Routing;
-
-namespace IRunesWebApp
+﻿namespace IRunesWebApp
 {
+    using IRunesWebApp.Controllers;
+    using SIS.HTTP.Enums;
+    using SIS.WebServer;
+    using SIS.WebServer.Results;
+    using SIS.WebServer.Routing;
+
     class Program
     {
         static void Main(string[] args)

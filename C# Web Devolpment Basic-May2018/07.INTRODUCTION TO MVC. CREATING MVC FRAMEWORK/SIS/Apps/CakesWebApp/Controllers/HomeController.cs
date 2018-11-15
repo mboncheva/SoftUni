@@ -1,10 +1,8 @@
-﻿using SIS.HTTP.Enums;
-using SIS.HTTP.Requests;
-using SIS.HTTP.Responses;
-using SIS.WebServer.Results;
-
-namespace CakesWebApp.Controllers
+﻿namespace CakesWebApp.Controllers
 {
+    using SIS.HTTP.Responses;
+    using System.Collections.Generic;
+
     public class HomeController : BaseController
     {
         public IHttpResponse Index()
@@ -14,7 +12,10 @@ namespace CakesWebApp.Controllers
 
         public IHttpResponse HelloUser()
         {
-            return new HtmlResult($"<h1>Hello, {this.GetUsername()}</h1>", HttpResponseStatusCode.Ok);
+            return this.View("HelloUser",new Dictionary<string, string>
+            {
+                { "Username", this.GetUsername()}
+            });
         }
     }
 }

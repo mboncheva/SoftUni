@@ -16,3 +16,5 @@ D:\SoftUni\C# Web Devolpment Basic-May2018\07.INTRODUCTION TO MVC. CREATING MVC 
 D:\SoftUni\C# Web Devolpment Basic-May2018\07.INTRODUCTION TO MVC. CREATING MVC FRAMEWORK\SIS\Apps\IRunesWebApp\obj\Debug\netcoreapp2.1\IRunesWebApp.csproj.CopyComplete
 D:\SoftUni\C# Web Devolpment Basic-May2018\07.INTRODUCTION TO MVC. CREATING MVC FRAMEWORK\SIS\Apps\IRunesWebApp\obj\Debug\netcoreapp2.1\IRunesWebApp.dll
 D:\SoftUni\C# Web Devolpment Basic-May2018\07.INTRODUCTION TO MVC. CREATING MVC FRAMEWORK\SIS\Apps\IRunesWebApp\obj\Debug\netcoreapp2.1\IRunesWebApp.pdb
+D:\SoftUni\C# Web Devolpment Basic-May2018\07.INTRODUCTION TO MVC. CREATING MVC FRAMEWORK\SIS\Apps\IRunesWebApp\bin\Debug\netcoreapp2.1\SIS.MvcFramework.dll
+D:\SoftUni\C# Web Devolpment Basic-May2018\07.INTRODUCTION TO MVC. CREATING MVC FRAMEWORK\SIS\Apps\IRunesWebApp\bin\Debug\netcoreapp2.1\SIS.MvcFramework.pdb

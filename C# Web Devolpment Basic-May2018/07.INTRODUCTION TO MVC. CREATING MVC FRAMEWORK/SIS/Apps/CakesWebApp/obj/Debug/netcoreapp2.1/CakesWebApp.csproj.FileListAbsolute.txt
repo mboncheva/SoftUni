@@ -23,3 +23,4 @@ D:\SoftUni\C# Web Devolpment Basic-May2018\07.INTRODUCTION TO MVC. CREATING MVC 
 D:\SoftUni\C# Web Devolpment Basic-May2018\07.INTRODUCTION TO MVC. CREATING MVC FRAMEWORK\SIS\Apps\CakesWebApp\obj\Debug\netcoreapp2.1\CakesWebApp.csproj.CopyComplete
 D:\SoftUni\C# Web Devolpment Basic-May2018\07.INTRODUCTION TO MVC. CREATING MVC FRAMEWORK\SIS\Apps\CakesWebApp\obj\Debug\netcoreapp2.1\CakesWebApp.dll
 D:\SoftUni\C# Web Devolpment Basic-May2018\07.INTRODUCTION TO MVC. CREATING MVC FRAMEWORK\SIS\Apps\CakesWebApp\obj\Debug\netcoreapp2.1\CakesWebApp.pdb
+D:\SoftUni\C# Web Devolpment Basic-May2018\07.INTRODUCTION TO MVC. CREATING MVC FRAMEWORK\SIS\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\Views\HelloUser.html

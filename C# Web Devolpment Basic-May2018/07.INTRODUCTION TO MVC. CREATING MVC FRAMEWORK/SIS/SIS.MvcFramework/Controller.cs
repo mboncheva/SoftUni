@@ -1,21 +1,25 @@
 ﻿namespace SIS.MvcFramework
 {
     using SIS.HTTP.Enums;
+    using SIS.HTTP.Headers;
     using SIS.HTTP.Requests;
     using SIS.HTTP.Responses;
     using SIS.MvcFramework.Services;
-    using SIS.WebServer.Results;
     using System.Collections.Generic;
+    using System.Text;
 
     public class Controller
     {
         public IHttpRequest Request { get; set; }
+
+        public IHttpResponse Response { get; set; }
 
         protected IUserCookieService UserCookieService { get; }
 
         public Controller()
         {
             this.UserCookieService = new UserCookieService();
+            this.Response = new HttpResponse() { StatusCode = HttpResponseStatusCode.Ok};
         }
 
         protected string GetUsername()
@@ -40,22 +44,33 @@
             }
 
             var allContent = this.GetViewContent(viewName, viewBag);
-            return new HtmlResult(allContent, HttpResponseStatusCode.Ok);
+            this.PrepareHtmlResult(allContent);
+
+            return this.Response;
         }
 
         protected IHttpResponse File(byte[] content)
         {
-            return new FileResult(content);
+            this.Response.Headers.Add(new HttpHeader(HttpHeader.ContentLength, content.Length.ToString()));
+            this.Response.Headers.Add(new HttpHeader(HttpHeader.ContentDisposition, "inline"));
+            this.Response.Content = content;
+            return this.Response;
         }
 
         protected IHttpResponse Redirect(string location)
         {
-            return new RedirectResult(location);
+            this.Response.Headers.Add(new HttpHeader(HttpHeader.Location, location));
+            this.Response.StatusCode = HttpResponseStatusCode.Redirect;
+            return this.Response;
+
         }
 
         protected IHttpResponse Text(string content)
         {
-            return new TextResult(content, HttpResponseStatusCode.Ok);
+            this.Response.Headers.Add(new HttpHeader(HttpHeader.ContentType, "text/plain; charset=utf-8"));
+            this.Response.Content = Encoding.UTF8.GetBytes(content);
+            this.Response.StatusCode = HttpResponseStatusCode.Ok;
+            return this.Response;
         }
 
         protected IHttpResponse BadRequestError(string errorMessage)
@@ -63,8 +78,10 @@
             var viewBag = new Dictionary<string, string>();
             viewBag.Add("Error", errorMessage);
             var allContent = this.GetViewContent("Error", viewBag);
+            this.PrepareHtmlResult(allContent);
+            this.Response.StatusCode = HttpResponseStatusCode.BadRequest;
 
-            return new HtmlResult(allContent, HttpResponseStatusCode.BadRequest);
+            return this.Response;
         }
 
         protected IHttpResponse ServerError(string errorMessage)
@@ -72,15 +89,17 @@
             var viewBag = new Dictionary<string, string>();
             viewBag.Add("Error", errorMessage);
             var allContent = this.GetViewContent("Error", viewBag);
+            this.PrepareHtmlResult(allContent);
+            this.Response.StatusCode = HttpResponseStatusCode.InternalServerError;
 
-            return new HtmlResult(allContent, HttpResponseStatusCode.InternalServerError);
+            return this.Response;
         }
 
         private string GetViewContent(string viewName,
             IDictionary<string, string> viewBag)
         {
-            var layoutContent = File.ReadAllText("Views/_Layout.html");
-            var content = File.ReadAllText("Views/" + viewName + ".html");
+            var layoutContent = System.IO.File.ReadAllText("Views/_Layout.html");
+            var content =System.IO.File.ReadAllText("Views/" + viewName + ".html");
             foreach (var item in viewBag)
             {
                 content = content.Replace("@Model." + item.Key, item.Value);
@@ -88,6 +107,12 @@
 
             var allContent = layoutContent.Replace("@RenderBody()", content);
             return allContent;
+        }
+
+        private void PrepareHtmlResult(string content)
+        {
+            this.Response.Headers.Add(new HttpHeader(HttpHeader.ContentType, "text/html; charset=utf-8"));
+            this.Response.Content = Encoding.UTF8.GetBytes(content);
         }
     }
 }

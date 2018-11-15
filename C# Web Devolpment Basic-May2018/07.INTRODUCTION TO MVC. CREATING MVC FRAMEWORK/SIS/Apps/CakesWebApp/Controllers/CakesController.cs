@@ -44,7 +44,7 @@ namespace CakesWebApp.Controllers
             }
 
             // Redirect
-            return new RedirectResult("/");
+            return this.Redirect("/");
         }
 
         public IHttpResponse ById()
@@ -62,6 +62,7 @@ namespace CakesWebApp.Controllers
                 {"Price", product.Price.ToString(CultureInfo.InvariantCulture)},
                 {"ImageUrl", product.ImageUrl}
             };
+
             return this.View("CakeById", viewBag);
         }
     }

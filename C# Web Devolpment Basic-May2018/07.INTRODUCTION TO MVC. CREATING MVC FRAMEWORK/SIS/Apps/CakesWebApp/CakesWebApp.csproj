@@ -18,10 +18,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\SIS.MvcFramework\SIS.MvcFramework.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Update="Views\CakeById.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -29,6 +25,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Views\AddCakes.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Views\HelloUser.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Views\_Layout.html">
@@ -47,6 +46,10 @@
 
   <ItemGroup>
     <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\SIS.MvcFramework\SIS.MvcFramework.csproj" />
   </ItemGroup>
 
 </Project>

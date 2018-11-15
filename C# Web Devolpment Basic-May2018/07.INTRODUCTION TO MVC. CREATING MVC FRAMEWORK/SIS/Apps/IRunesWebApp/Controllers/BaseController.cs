@@ -1,18 +1,17 @@
-﻿using System.Collections.Generic;
-using System.IO;
-using System.Net;
-using System.Runtime.CompilerServices;
-using IRunesWebApp.Data;
-using Services;
-using SIS.HTTP.Cookies;
-using SIS.HTTP.Enums;
-using SIS.HTTP.Requests;
-using SIS.HTTP.Responses;
-using SIS.WebServer.Results;
-
-namespace IRunesWebApp.Controllers
+﻿namespace IRunesWebApp.Controllers
 {
-    public abstract class BaseController
+    using System.Collections.Generic;
+    using System.Runtime.CompilerServices;
+    using IRunesWebApp.Data;
+    using Services;
+    using SIS.HTTP.Cookies;
+    using SIS.HTTP.Enums;
+    using SIS.HTTP.Requests;
+    using SIS.HTTP.Responses;
+    using SIS.MvcFramework;
+    using SIS.WebServer.Results;
+
+    public abstract class BaseController : Controller
     {       
         private const string RootDirectoryRelativePath = "../../../";
 
@@ -75,7 +74,7 @@ namespace IRunesWebApp.Controllers
                 viewName +
                 HtmlFileExtension;
 
-            if (!File.Exists(filePath))
+            if (!System.IO.File.Exists(filePath))
             {
                 return new BadRequestResult(
                     $"View {viewName} not found.",
@@ -85,7 +84,7 @@ namespace IRunesWebApp.Controllers
             var viewContent = BuildViewContent(filePath);
 
 
-            var viewLayout = File.ReadAllText(layoutView);
+            var viewLayout = System.IO.File.ReadAllText(layoutView);
             var view = viewLayout.Replace(RenderBodyConstant, viewContent);
 
             var response = new HtmlResult(view, HttpResponseStatusCode.Ok);
@@ -95,7 +94,7 @@ namespace IRunesWebApp.Controllers
 
         private string BuildViewContent(string filePath)
         {
-            var viewContent = File.ReadAllText(filePath);
+            var viewContent = System.IO.File.ReadAllText(filePath);
 
             foreach (var viewBagKey in ViewBag.Keys)
             {

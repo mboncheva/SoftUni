@@ -2,9 +2,7 @@
 {
     using System;
     using Microsoft.EntityFrameworkCore.Internal;
-    using SIS.HTTP.Requests;
     using SIS.HTTP.Responses;
-    using SIS.WebServer.Results;
     using System.Linq;
     using CakesWebApp.Models;
     using SIS.HTTP.Cookies;
@@ -76,7 +74,7 @@
             // TODO: Login
 
             // Redirect
-            return new RedirectResult("/");
+            return this.Redirect("/");
         }
 
         public IHttpResponse Login()
@@ -102,10 +100,9 @@
 
             var cookieContent = this.UserCookieService.GetUserCookie(user.Username);
 
-            var response = new RedirectResult("/");
             var cookie = new HttpCookie(".auth-cakes", cookieContent, 7) { HttpOnly = true };
-            response.Cookies.Add(cookie);
-            return response;
+            this.Response.Cookies.Add(cookie);
+            return this.Redirect("/");
         }
 
         public IHttpResponse Logout()
@@ -117,9 +114,9 @@
 
             var cookie = this.Request.Cookies.GetCookie(".auth-cakes");
             cookie.Delete();
-            var response = new RedirectResult("/");
-            response.Cookies.Add(cookie);
-            return response;
+            this.Response.Cookies.Add(cookie);
+
+            return this.Redirect("/");
         }
     }
 }

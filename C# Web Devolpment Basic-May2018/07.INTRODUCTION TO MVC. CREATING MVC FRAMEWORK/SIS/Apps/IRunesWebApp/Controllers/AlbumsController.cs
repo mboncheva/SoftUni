@@ -1,22 +1,16 @@
-﻿using System;
-using System.Linq;
-using IRunesWebApp.Models;
-using Services;
-using SIS.HTTP.Cookies;
-using SIS.HTTP.Enums;
-using SIS.HTTP.Requests;
-using SIS.HTTP.Responses;
-using SIS.WebServer.Results;
-
-namespace IRunesWebApp.Controllers
+﻿namespace IRunesWebApp.Controllers
 {
+    using System.Linq;
+    using SIS.HTTP.Requests;
+    using SIS.HTTP.Responses;
+
     public class AlbumsController : BaseController
     {
         public IHttpResponse All(IHttpRequest request)
         {
             if (!this.IsAuthenticated(request))
             {
-                return new RedirectResult("/users/login");
+                return this.Redirect("/users/login");
             }
 
             var albums = this.Context.Albums;
