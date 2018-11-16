@@ -7,6 +7,7 @@
     using CakesWebApp.Models;
     using SIS.HTTP.Cookies;
     using SIS.MvcFramework.Services;
+    using SIS.MvcFramework;
 
     public class AccountController : BaseController
     {
@@ -17,11 +18,13 @@
             this.hashService = new HashService();
         }
 
+        [HttpGet("/register")]
         public IHttpResponse Register()
         {
             return this.View("Register");
         }
 
+        [HttpPost("/register")]
         public IHttpResponse DoRegister()
         {
             var userName = this.Request.FormData["username"].ToString().Trim();
@@ -77,11 +80,13 @@
             return this.Redirect("/");
         }
 
+        [HttpGet("/login")]
         public IHttpResponse Login()
         {
             return this.View("Login");
         }
 
+        [HttpPost("/login")]
         public IHttpResponse DoLogin()
         {
             var userName = this.Request.FormData["username"].ToString().Trim();
@@ -105,6 +110,7 @@
             return this.Redirect("/");
         }
 
+        [HttpGet("/logout")]
         public IHttpResponse Logout()
         {
             if (!this.Request.Cookies.ContainsCookie(".auth-cakes"))

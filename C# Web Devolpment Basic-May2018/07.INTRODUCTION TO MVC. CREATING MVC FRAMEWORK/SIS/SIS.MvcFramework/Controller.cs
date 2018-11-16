@@ -8,34 +8,36 @@
     using System.Collections.Generic;
     using System.Text;
 
-    public class Controller
+    public abstract class Controller
     {
+        protected Controller()
+        {
+            this.UserCookieService = new UserCookieService();
+            this.Response = new HttpResponse() { StatusCode = HttpResponseStatusCode.Ok};
+        }
+
         public IHttpRequest Request { get; set; }
 
         public IHttpResponse Response { get; set; }
 
         protected IUserCookieService UserCookieService { get; }
 
-        public Controller()
+        protected string User
         {
-            this.UserCookieService = new UserCookieService();
-            this.Response = new HttpResponse() { StatusCode = HttpResponseStatusCode.Ok};
-        }
-
-        protected string GetUsername()
-        {
-            if (!this.Request.Cookies.ContainsCookie(".auth-cakes"))
+            get
             {
-                return null;
+                if (!this.Request.Cookies.ContainsCookie(".auth-cakes"))
+                {
+                    return null;
+                }
+
+                var cookie = this.Request.Cookies.GetCookie(".auth-cakes");
+                var cookieContent = cookie.Value;
+                var userName = this.UserCookieService.GetUserData(cookieContent);
+                return userName;
             }
-
-            var cookie = this.Request.Cookies.GetCookie(".auth-cakes");
-            var cookieContent = cookie.Value;
-            var userName = this.UserCookieService.GetUserData(cookieContent);
-            return userName;
-
         }
-
+     
         protected IHttpResponse View(string viewName, IDictionary<string, string> viewBag = null)
         {
             if (viewBag == null)
