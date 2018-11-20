@@ -12,7 +12,6 @@
     {
         protected Controller()
         {
-            this.UserCookieService = new UserCookieService();
             this.Response = new HttpResponse() { StatusCode = HttpResponseStatusCode.Ok};
         }
 
@@ -20,7 +19,7 @@
 
         public IHttpResponse Response { get; set; }
 
-        protected IUserCookieService UserCookieService { get; }
+        public IUserCookieService UserCookieService { get; internal set; }
 
         protected string User
         {

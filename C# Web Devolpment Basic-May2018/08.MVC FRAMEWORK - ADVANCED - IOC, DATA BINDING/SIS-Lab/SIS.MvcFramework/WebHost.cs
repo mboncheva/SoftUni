@@ -9,22 +9,25 @@
     using SIS.HTTP.Requests;
     using SIS.WebServer.Results;
     using SIS.HTTP.Enums;
+    using SIS.MvcFramework.Services;
 
     public static class WebHost
     {
         public static void Start(IMvcApplication application)
         {
-            application.ConfigureServices();
+            var dependencyContainer = new ServiceCollection();
+            application.ConfigureServices(dependencyContainer);
 
             var serverRoutingTable = new ServerRoutingTable();
-            AutoRegisterRoutes(serverRoutingTable, application);
+            AutoRegisterRoutes(serverRoutingTable, application, dependencyContainer);
             application.Configure();
 
             var server = new Server(80, serverRoutingTable);
             server.Run();
         }
 
-        private static void AutoRegisterRoutes(ServerRoutingTable routingTable, IMvcApplication application)
+        private static void AutoRegisterRoutes(ServerRoutingTable routingTable,
+            IMvcApplication application, IServiceCollection serviceCollection)
         {
             var controllers = application.GetType().Assembly.GetTypes()
                 .Where(myType => myType.IsClass
@@ -46,22 +49,26 @@
                         continue;
                     }
                     routingTable.Add(httpAttribute.Method, httpAttribute.Path,
-                       (request) => ExecuteAction(controller, methodInfo, request));
+                       (request) => ExecuteAction(controller, methodInfo, request,serviceCollection));
                     Console.WriteLine($"Route registered: {controller.Name}.{methodInfo.Name} => {httpAttribute.Method} => {httpAttribute.Path}");
                 }
             }
         }
 
         private static IHttpResponse ExecuteAction(Type controllerType,
-           MethodInfo methodInfo, IHttpRequest request)
+           MethodInfo methodInfo, IHttpRequest request,
+           IServiceCollection serviceCollection)
         {
-            var controllerInstance = Activator.CreateInstance(controllerType) as Controller;
+            var controllerInstance = serviceCollection.CreateInstance(controllerType) as Controller;
             if (controllerInstance == null)
             {
                 return new TextResult("Controller not found.",
                     HttpResponseStatusCode.InternalServerError);
             }
+
             controllerInstance.Request = request;
+            controllerInstance.UserCookieService = serviceCollection.CreateInstance<IUserCookieService>();
+
             var httpResponse = methodInfo.Invoke(controllerInstance, new object[] { }) as IHttpResponse;
             return httpResponse;
         }

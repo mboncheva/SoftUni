@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using CakesWebApp.Models;
-using Microsoft.EntityFrameworkCore;
-
-namespace CakesWebApp.Data
+﻿namespace CakesWebApp.Data
 {
+    using CakesWebApp.Models;
+    using Microsoft.EntityFrameworkCore;
+
     public class CakesDbContext : DbContext
     {
         public DbSet<User> Users { get; set; }
