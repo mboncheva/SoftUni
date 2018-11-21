@@ -37,7 +37,7 @@
             }
 
             // TODO: if empty -> use it 
-            var constructor = type.GetConstructors().First();
+            var constructor = type.GetConstructors().OrderBy(x=>x.GetParameters().Length).First();
             var constructorParameters = constructor.GetParameters();
             var constructorParameterObjects = new List<object>();
 
