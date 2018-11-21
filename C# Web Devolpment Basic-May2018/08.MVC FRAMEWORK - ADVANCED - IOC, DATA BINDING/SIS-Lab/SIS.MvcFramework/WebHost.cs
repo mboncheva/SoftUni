@@ -10,6 +10,7 @@
     using SIS.WebServer.Results;
     using SIS.HTTP.Enums;
     using SIS.MvcFramework.Services;
+    using System.Collections.Generic;
 
     public static class WebHost
     {
@@ -69,7 +70,36 @@
             controllerInstance.Request = request;
             controllerInstance.UserCookieService = serviceCollection.CreateInstance<IUserCookieService>();
 
-            var httpResponse = methodInfo.Invoke(controllerInstance, new object[] { }) as IHttpResponse;
+
+            var actionParameters = methodInfo.GetParameters();
+            var actionParametersObject = new List<object>();
+
+            foreach (var actionParameter in actionParameters)
+            {
+                var instance = serviceCollection.CreateInstance(actionParameter.ParameterType);
+
+                var properties = actionParameter.ParameterType.GetProperties();
+                foreach (var propertyInfo in properties)
+                {
+                    var key = propertyInfo.Name.ToLower();
+                    object value = null;
+                    if (request.FormData.Any(x => x.Key.ToLower() == key))
+                    {
+                        value = request.FormData.First(x => x.Key.ToLower() == key).Value.ToString();
+                    }
+                    else if (request.QueryData.Any(x => x.Key.ToLower() == key))
+                    {
+                        value = request.QueryData.First(x => x.Key.ToLower() == key).Value.ToString();
+                    }
+
+                    propertyInfo.SetMethod.Invoke(instance, new object[] { value });
+                }
+
+                actionParametersObject.Add(instance);
+            }
+
+
+            var httpResponse = methodInfo.Invoke(controllerInstance, actionParametersObject.ToArray()) as IHttpResponse;
             return httpResponse;
         }
     }

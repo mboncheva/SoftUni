@@ -4,6 +4,7 @@ using System.Globalization;
 using System.Linq;
 using CakesWebApp.Extensions;
 using CakesWebApp.Models;
+using CakesWebApp.ViewModels.Cakes;
 using SIS.HTTP.Responses;
 using SIS.MvcFramework;
 
@@ -18,19 +19,15 @@ namespace CakesWebApp.Controllers
         }
 
         [HttpPost("/cakes/add")]
-        public IHttpResponse DoAddCakes()
+        public IHttpResponse DoAddCakes(DoAddCakesInputModel model)
         {
-            var name = this.Request.FormData["name"].ToString().Trim().UrlDecode();
-            var price = decimal.Parse(this.Request.FormData["price"].ToString().UrlDecode());
-            var picture = this.Request.FormData["picture"].ToString().Trim().UrlDecode();
-
-            // TODO: Validation
+            // TODO: Validation and Model
 
             var product = new Product
             {
-                Name = name,
-                Price = price,
-                ImageUrl = picture
+                Name = model.Name,
+                Price =decimal.Parse(model.Price),
+                ImageUrl = model.UrlPicture
             };
             this.Db.Products.Add(product);
 
