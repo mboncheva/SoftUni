@@ -11,11 +11,15 @@
     using SIS.HTTP.Enums;
     using SIS.MvcFramework.Services;
     using System.Collections.Generic;
+    using System.Threading;
+    using System.Globalization;
 
     public static class WebHost
     {
         public static void Start(IMvcApplication application)
         {
+            Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
+
             var dependencyContainer = new ServiceCollection();
             application.ConfigureServices(dependencyContainer);
 
@@ -50,7 +54,7 @@
                         continue;
                     }
                     routingTable.Add(httpAttribute.Method, httpAttribute.Path,
-                       (request) => ExecuteAction(controller, methodInfo, request,serviceCollection));
+                       (request) => ExecuteAction(controller, methodInfo, request, serviceCollection));
                     Console.WriteLine($"Route registered: {controller.Name}.{methodInfo.Name} => {httpAttribute.Method} => {httpAttribute.Path}");
                 }
             }
@@ -70,7 +74,14 @@
             controllerInstance.Request = request;
             controllerInstance.UserCookieService = serviceCollection.CreateInstance<IUserCookieService>();
 
+            var actionParametersObject = GetActionParameterObjects(methodInfo, request, serviceCollection);
 
+            var httpResponse = methodInfo.Invoke(controllerInstance, actionParametersObject.ToArray()) as IHttpResponse;
+            return httpResponse;
+        }
+
+        private static List<object> GetActionParameterObjects(MethodInfo methodInfo, IHttpRequest request, IServiceCollection serviceCollection)
+        {
             var actionParameters = methodInfo.GetParameters();
             var actionParametersObject = new List<object>();
 
@@ -82,15 +93,19 @@
                 foreach (var propertyInfo in properties)
                 {
                     var key = propertyInfo.Name.ToLower();
-                    object value = null;
+                    string stringValue = null;
+
                     if (request.FormData.Any(x => x.Key.ToLower() == key))
                     {
-                        value = request.FormData.First(x => x.Key.ToLower() == key).Value.ToString();
+                        stringValue = request.FormData.First(x => x.Key.ToLower() == key).Value.ToString().UrlDecode();
                     }
                     else if (request.QueryData.Any(x => x.Key.ToLower() == key))
                     {
-                        value = request.QueryData.First(x => x.Key.ToLower() == key).Value.ToString();
+                        stringValue = request.QueryData.First(x => x.Key.ToLower() == key).Value.ToString().UrlDecode();
                     }
+
+                    var typeCode = Type.GetTypeCode(propertyInfo.PropertyType);
+                    var value = TryParse(stringValue, typeCode);
 
                     propertyInfo.SetMethod.Invoke(instance, new object[] { value });
                 }
@@ -98,9 +113,36 @@
                 actionParametersObject.Add(instance);
             }
 
+            return actionParametersObject;
+        }
 
-            var httpResponse = methodInfo.Invoke(controllerInstance, actionParametersObject.ToArray()) as IHttpResponse;
-            return httpResponse;
+        private static object TryParse(string stringValue, TypeCode typeCode)
+        {
+            object value = stringValue;
+            switch (typeCode)
+            {
+                case TypeCode.Int32:
+                    if (int.TryParse(stringValue, out var intValue)) value = intValue;
+                    break;
+                case TypeCode.Char:
+                    if (char.TryParse(stringValue, out var charValue)) value = charValue;
+                    break;
+                case TypeCode.Int64:
+                    if (long.TryParse(stringValue, out var longValue)) value = longValue;
+                    break;
+                case TypeCode.Double:
+                    if (double.TryParse(stringValue, out var doubleValue)) value = doubleValue;
+                    break;
+                case TypeCode.Decimal:
+                    if (decimal.TryParse(stringValue, out var decimalValue)) value = decimalValue;
+                    break;
+                case TypeCode.DateTime:
+                    if (DateTime.TryParse(stringValue, out var dateTimeValue)) value = dateTimeValue;
+                    break;
+            }
+
+            return value;
         }
     }
 }
+   

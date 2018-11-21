@@ -93,7 +93,7 @@
             var hashedPassword = this.hashService.Hash(model.Password);
 
             var user = this.Db.Users.FirstOrDefault(x =>
-                x.Username == model.Username &&
+                x.Username == model.Username.Trim() &&
                 x.Password == hashedPassword);
 
             if (user == null)
