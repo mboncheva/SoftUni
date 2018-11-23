@@ -1,6 +1,7 @@
 ﻿namespace SIS.MvcFramework.Tests.ViewEngine
 {
     using SIS.MvcFramework.ViewEngine;
+    using System.Collections.Generic;
     using System.IO;
     using Xunit;
 
@@ -16,9 +17,25 @@
             var expectedResult = File.ReadAllText($"TestViews/{testViewName}.Result.html");
 
             IViewEngine viewEngine = new MvcFramework.ViewEngine.ViewEngine();
-            var result = viewEngine.GetHtml(viewCode);
+            var model = new TestModel
+            {
+                String = "Username",
+                List = new List<string>
+                {
+                    "Item1","Item2","test","123", ""
+                }
+            };
+
+            var result = viewEngine.GetHtml(testViewName, viewCode, model);
 
             Assert.Equal(expectedResult, result);
+        }
+
+        public class TestModel
+        {
+            public string String { get; set; }
+
+            public IEnumerable<string> List { get; set; }
         }
     }
 }

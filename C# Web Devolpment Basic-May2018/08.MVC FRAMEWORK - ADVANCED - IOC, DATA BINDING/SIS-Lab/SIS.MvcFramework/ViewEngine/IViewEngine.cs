@@ -2,6 +2,6 @@
 {
     public interface IViewEngine
     {
-        string GetHtml(string ViewCode);
+        string GetHtml<T>(string viewName, string ViewCode, T model);
     }
 }
