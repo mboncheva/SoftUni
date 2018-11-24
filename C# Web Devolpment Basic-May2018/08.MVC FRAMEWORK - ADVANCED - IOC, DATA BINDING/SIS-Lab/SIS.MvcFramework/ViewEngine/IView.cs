@@ -1,10 +1,8 @@
 ﻿namespace SIS.MvcFramework.ViewEngine
 {
-    public partial class ViewEngine
+
+    public interface IView<T>
     {
-        public interface IView<T>
-        {
-            string GetHtml(T model);
-        }
+        string GetHtml(T model);
     }
 }
