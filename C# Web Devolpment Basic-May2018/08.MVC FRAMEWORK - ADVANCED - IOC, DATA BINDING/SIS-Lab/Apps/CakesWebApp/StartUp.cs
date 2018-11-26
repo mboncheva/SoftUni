@@ -3,7 +3,6 @@
     using SIS.MvcFramework;
     using SIS.MvcFramework.Logger;
     using SIS.MvcFramework.Services;
-    using System;
 
     public class StartUp : IMvcApplication
     {
@@ -17,7 +16,7 @@
             collection.AddService<IUserCookieService, UserCookieService>();
             collection.AddService<ILogger, FileLogger>();
 
-            collection.AddService<ILogger>(() => new FileLogger($"log {DateTime.Now.Date}.txt"));
+            collection.AddService<ILogger>(() => new FileLogger($"log.txt"));
         }
     }
 }

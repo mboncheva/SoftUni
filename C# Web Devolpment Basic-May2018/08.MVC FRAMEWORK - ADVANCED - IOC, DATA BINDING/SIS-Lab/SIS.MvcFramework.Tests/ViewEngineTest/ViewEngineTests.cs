@@ -15,7 +15,7 @@
         {
             var viewCode = File.ReadAllText($"TestViews/{testViewName}.html");
             var expectedResult = File.ReadAllText($"TestViews/{testViewName}.Result.html");
-            IViewEngine viewEngine = new SIS.MvcFramework.ViewEngine.ViewEngine();
+            IViewEngine viewEngine = new MvcFramework.ViewEngine.ViewEngine();
             var model = new TestModel
             {
                 String = "Username",

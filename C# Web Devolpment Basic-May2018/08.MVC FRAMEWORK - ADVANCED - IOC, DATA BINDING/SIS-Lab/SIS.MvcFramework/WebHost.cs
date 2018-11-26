@@ -71,6 +71,7 @@
             }
 
             controllerInstance.Request = request;
+            controllerInstance.ViewEngine = new ViewEngine.ViewEngine(); // TODO:use serviceCollection
             controllerInstance.UserCookieService = serviceCollection.CreateInstance<IUserCookieService>();
 
             var actionParametersObject = GetActionParameterObjects(methodInfo, request, serviceCollection);

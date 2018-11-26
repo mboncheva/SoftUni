@@ -28,7 +28,7 @@
     <None Update="TestViews\ViewWithNoCode.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="TestViews\ViewWithNoCode.Reult.html">
+    <None Update="TestViews\ViewWithNoCode.Result.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="TestViews\WorkWithViewModel.html">
