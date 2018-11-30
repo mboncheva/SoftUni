@@ -1,15 +1,15 @@
-﻿namespace SIS.MvcFramework.ViewEngine
-{
-    using System;
-    using System.Collections.Generic;
-    using System.IO;
-    using System.Linq;
-    using System.Reflection;
-    using System.Text;
-    using System.Text.RegularExpressions;
-    using Microsoft.CodeAnalysis;
-    using Microsoft.CodeAnalysis.CSharp;
+﻿using Microsoft.CodeAnalysis;
+using Microsoft.CodeAnalysis.CSharp;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Reflection;
+using System.Text;
+using System.Text.RegularExpressions;
 
+namespace SIS.MvcFramework.ViewEngine
+{
     public class ViewEngine : IViewEngine
     {
         public string GetHtml<T>(string viewName, string viewCode, T model)
@@ -30,10 +30,8 @@ namespace MyAppViews
         public string GetHtml(" + typeof(T).FullName.Replace("+", ".") + @" model)
         {
             StringBuilder html = new StringBuilder();
-            var Model= model; 
-
+            var Model = model;
             " + csharpMethodBody + @"
-
             return html.ToString().TrimEnd();
         }
     }
@@ -56,9 +54,7 @@ namespace MyAppViews
                 .AddReferences(MetadataReference.CreateFromFile(typeof(IView<>).GetTypeInfo().Assembly.Location))
                 .AddReferences(MetadataReference.CreateFromFile(viewModelType.Assembly.Location));
 
-
             var netStandardReferences = Assembly.Load(new AssemblyName("netstandard")).GetReferencedAssemblies();
-
             foreach (var netStandardReference in netStandardReferences)
             {
                 compilation = compilation.AddReferences(MetadataReference.CreateFromFile(Assembly.Load(netStandardReference).Location));
@@ -95,7 +91,6 @@ namespace MyAppViews
         {
             var lines = this.GetLines(viewCode);
             var stringBuilder = new StringBuilder();
-
             foreach (var line in lines)
             {
                 if (line.Trim().StartsWith("{") ||
@@ -128,7 +123,9 @@ namespace MyAppViews
                             htmlLine = htmlLine.Substring(0, specialSymbolIndex) +
                                        "\" + " + expression + " + \"" + htmlLine.Substring(endOfCode);
                         }
+
                     }
+
                     stringBuilder.AppendLine($"html.AppendLine(\"{htmlLine}\");");
                 }
             }
@@ -140,8 +137,8 @@ namespace MyAppViews
         {
             var stringReader = new StringReader(input);
             var lines = new List<string>();
-            string line = null;
 
+            string line = null;
             while ((line = stringReader.ReadLine()) != null)
             {
                 lines.Add(line);

@@ -9,6 +9,12 @@
 
         private readonly string fileName;
 
+        public FileLogger()
+            :this("log.txt")
+        {
+
+        }
+
         public FileLogger(string fileName)
         {
             this.fileName = fileName;
