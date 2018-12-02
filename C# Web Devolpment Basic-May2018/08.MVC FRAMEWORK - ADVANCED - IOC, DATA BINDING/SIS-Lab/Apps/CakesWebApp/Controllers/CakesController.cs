@@ -71,11 +71,26 @@
             return this.View("CakeById", viewModel);
         }
 
-        public class ByIdViewModel
+        [HttpGet("/cakes/search")]
+        public IHttpResponse Search(string searchText)
         {
-            public string Name { get; set; }
-            public decimal Price { get; set; }
-            public string ImageUrl { get; set; }
+            var cakes = this.Db.Products
+                .Where(x => x.Name.Contains(searchText))
+                .Select(x => new ByIdViewModel
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                    Price = x.Price,
+                    ImageUrl = x.ImageUrl
+                })
+                .ToList();
+
+            var cakesViewModel = new SearchViewModel
+            {
+                Cakes = cakes,
+                SearchText = searchText
+            };
+            return this.View("Search", cakesViewModel);
         }
     }
 }
