@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
-using SIS.HTTP.Common;
-
-namespace SIS.HTTP.Headers
+﻿namespace SIS.HTTP.Headers
 {
+    using System.Collections.Generic;
+    using SIS.HTTP.Common;
+
     public class HttpHeaderCollection : IHttpHeaderCollection
     {
         private readonly Dictionary<string, HttpHeader> headers;
@@ -15,7 +15,7 @@ namespace SIS.HTTP.Headers
         public void Add(HttpHeader header)
         {
             CoreValidator.ThrowIfNull(header, nameof(header));
-            this.headers.Add(header.Key, header);
+            this.headers[header.Key] = header;
         }
 
         public bool ContainsHeader(string key)
