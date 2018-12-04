@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Reflection;
-using System.Threading;
 using SIS.HTTP.Enums;
 using SIS.HTTP.Requests;
 using SIS.HTTP.Responses;
@@ -32,7 +31,7 @@ namespace SIS.MvcFramework
             server.Run();
         }
 
-        private static void AutoRegisterRoutes(ServerRoutingTable routingTable, 
+        private static void AutoRegisterRoutes(ServerRoutingTable routingTable,
             IMvcApplication application, IServiceCollection serviceCollection)
         {
             var controllers = application.GetType().Assembly.GetTypes()
@@ -69,7 +68,7 @@ namespace SIS.MvcFramework
             }
         }
 
-        private static IHttpResponse ExecuteAction(Type controllerType, 
+        private static IHttpResponse ExecuteAction(Type controllerType,
             MethodInfo methodInfo, IHttpRequest request,
             IServiceCollection serviceCollection)
         {
@@ -102,7 +101,7 @@ namespace SIS.MvcFramework
                     Type.GetTypeCode(actionParameter.ParameterType) == TypeCode.String)
                 {
                     var stringValue = GetRequestData(request, actionParameter.Name);
-                    actionParameterObjects.Add(TryParse(stringValue, actionParameter.ParameterType));
+                    actionParameterObjects.Add(ObjectMapper.TryParse(stringValue, actionParameter.ParameterType));
                 }
                 else
                 {
@@ -112,11 +111,11 @@ namespace SIS.MvcFramework
                     {
                         // TODO: Support IEnumerable
                         var stringValue = GetRequestData(request, propertyInfo.Name);
-                        
-                        // Convert.ChangeType()
-                        var value = TryParse(stringValue, propertyInfo.PropertyType);
 
-                        propertyInfo.SetMethod.Invoke(instance, new object[] {value});
+                        // Convert.ChangeType()
+                        var value = ObjectMapper.TryParse(stringValue, propertyInfo.PropertyType);
+
+                        propertyInfo.SetMethod.Invoke(instance, new object[] { value });
                     }
 
                     actionParameterObjects.Add(instance);
@@ -142,36 +141,5 @@ namespace SIS.MvcFramework
             return stringValue;
         }
 
-        private static object TryParse(string stringValue, Type type)
-        {
-            var typeCode = Type.GetTypeCode(type);
-            object value = null;
-            switch (typeCode)
-            {
-                case TypeCode.Int32:
-                    if (int.TryParse(stringValue, out var intValue)) value = intValue;
-                    break;
-                case TypeCode.Char:
-                    if (char.TryParse(stringValue, out var charValue)) value = charValue;
-                    break;
-                case TypeCode.Int64:
-                    if (long.TryParse(stringValue, out var longValue)) value = longValue;
-                    break;
-                case TypeCode.Double:
-                    if (double.TryParse(stringValue, out var doubleValue)) value = doubleValue;
-                    break;
-                case TypeCode.Decimal:
-                    if (decimal.TryParse(stringValue, out var decimalValue)) value = decimalValue;
-                    break;
-                case TypeCode.DateTime:
-                    if (DateTime.TryParse(stringValue, out var dateTimeValue)) value = dateTimeValue;
-                    break;
-                case TypeCode.String:
-                    value = stringValue;
-                    break;
-            }
-
-            return value;
-        }
     }
 }
