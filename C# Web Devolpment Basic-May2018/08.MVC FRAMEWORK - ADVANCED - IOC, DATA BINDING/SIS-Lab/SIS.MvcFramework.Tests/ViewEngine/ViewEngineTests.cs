@@ -1,10 +1,11 @@
-﻿namespace SIS.MvcFramework.Tests.ViewEngineTest
-{
-    using System.Collections.Generic;
-    using System.IO;
-    using SIS.MvcFramework.ViewEngine;
-    using Xunit;
+﻿using System.Collections;
+using System.Collections.Generic;
+using System.IO;
+using SIS.MvcFramework.ViewEngine;
+using Xunit;
 
+namespace SIS.MvcFramework.Tests.ViewEngine
+{
     public class ViewEngineTests
     {
         [Theory]

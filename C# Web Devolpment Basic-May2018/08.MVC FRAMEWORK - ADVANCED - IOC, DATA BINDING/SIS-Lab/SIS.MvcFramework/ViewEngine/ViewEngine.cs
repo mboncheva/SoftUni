@@ -1,12 +1,15 @@
-﻿using Microsoft.CodeAnalysis;
-using Microsoft.CodeAnalysis.CSharp;
-using System;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
+using System.Runtime.Loader;
 using System.Text;
 using System.Text.RegularExpressions;
+using Microsoft.CodeAnalysis;
+using Microsoft.CodeAnalysis.CSharp;
+using Microsoft.CodeAnalysis.Emit;
 
 namespace SIS.MvcFramework.ViewEngine
 {
@@ -27,13 +30,14 @@ namespace MyAppViews
 {
     public class " + viewTypeName + " : IView<" + typeof(T).FullName.Replace("+", ".") + @">
     {
-        public string GetHtml(" + typeof(T).FullName.Replace("+", ".") + @" model,string user)
+        public string GetHtml(" + typeof(T).FullName.Replace("+", ".") + @" model, string user)
         {
             StringBuilder html = new StringBuilder();
             var Model = model;
-            var User= user;
+            var User = user;
 
             " + csharpMethodBody + @"
+
             return html.ToString().TrimEnd();
         }
     }

@@ -1,18 +1,19 @@
-﻿namespace SIS.MvcFramework
-{
-    using SIS.HTTP.Enums;
-    using SIS.HTTP.Headers;
-    using SIS.HTTP.Requests;
-    using SIS.HTTP.Responses;
-    using SIS.MvcFramework.Services;
-    using SIS.MvcFramework.ViewEngine;
-    using System.Text;
+﻿using System.Collections.Generic;
+using System.Text;
+using SIS.HTTP.Enums;
+using SIS.HTTP.Headers;
+using SIS.HTTP.Requests;
+using SIS.HTTP.Responses;
+using SIS.MvcFramework.Services;
+using SIS.MvcFramework.ViewEngine;
 
+namespace SIS.MvcFramework
+{
     public abstract class Controller
     {
         protected Controller()
         {
-            this.Response = new HttpResponse() { StatusCode = HttpResponseStatusCode.Ok};
+            this.Response = new HttpResponse {StatusCode = HttpResponseStatusCode.Ok};
         }
 
         public IHttpRequest Request { get; set; }
@@ -38,14 +39,14 @@
                 return userName;
             }
         }
-
+        
         protected IHttpResponse View(string viewName, string layoutName = "_Layout")
         {
             var allContent = this.GetViewContent(viewName, (object)null, layoutName);
             this.PrepareHtmlResult(allContent);
             return this.Response;
         }
-
+        
         protected IHttpResponse View<T>(string viewName, T model = null, string layoutName = "_Layout")
             where T : class
         {
@@ -65,26 +66,23 @@
         protected IHttpResponse Redirect(string location)
         {
             this.Response.Headers.Add(new HttpHeader(HttpHeader.Location, location));
-            this.Response.StatusCode = HttpResponseStatusCode.SeeOther;
+            this.Response.StatusCode = HttpResponseStatusCode.SeeOther; // TODO: Found better?
             return this.Response;
-
         }
 
         protected IHttpResponse Text(string content)
         {
             this.Response.Headers.Add(new HttpHeader(HttpHeader.ContentType, "text/plain; charset=utf-8"));
             this.Response.Content = Encoding.UTF8.GetBytes(content);
-            this.Response.StatusCode = HttpResponseStatusCode.Ok;
             return this.Response;
         }
 
         protected IHttpResponse BadRequestError(string errorMessage)
         {
-            var viewModel = new ErrorViewModel { Error = errorMessage };
+            var viewModel = new ErrorViewModel {Error = errorMessage};
             var allContent = this.GetViewContent("Error", viewModel);
             this.PrepareHtmlResult(allContent);
             this.Response.StatusCode = HttpResponseStatusCode.BadRequest;
-
             return this.Response;
         }
 
@@ -94,19 +92,17 @@
             var allContent = this.GetViewContent("Error", viewModel);
             this.PrepareHtmlResult(allContent);
             this.Response.StatusCode = HttpResponseStatusCode.InternalServerError;
-
             return this.Response;
         }
 
-        private string GetViewContent<T>(string viewName, T model, string layoutName= "_Layout")
+        private string GetViewContent<T>(string viewName, T model, string layoutName = "_Layout")
         {
             var content = this.ViewEngine.GetHtml(viewName,
-                 System.IO.File.ReadAllText("Views/" + viewName + ".html"), model, this.User);
+                System.IO.File.ReadAllText("Views/" + viewName + ".html"), model, this.User);
 
             var layoutFileContent = System.IO.File.ReadAllText($"Views/{layoutName}.html");
             var allContent = layoutFileContent.Replace("@RenderBody()", content);
             var layoutContent = this.ViewEngine.GetHtml("_Layout", allContent, model, this.User);
-
             return layoutContent;
         }
 

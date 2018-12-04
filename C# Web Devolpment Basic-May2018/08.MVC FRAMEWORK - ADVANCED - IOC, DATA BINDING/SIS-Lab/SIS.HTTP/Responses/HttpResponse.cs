@@ -3,6 +3,7 @@ using System.Text;
 using SIS.HTTP.Common;
 using SIS.HTTP.Cookies;
 using SIS.HTTP.Enums;
+using SIS.HTTP.Extensions;
 using SIS.HTTP.Headers;
 
 namespace SIS.HTTP.Responses
@@ -17,7 +18,7 @@ namespace SIS.HTTP.Responses
         }
 
         public HttpResponse(HttpResponseStatusCode statusCode)
-            :this()
+            : this()
         {
             CoreValidator.ThrowIfNull(statusCode, nameof(statusCode));
             this.StatusCode = statusCode;
@@ -52,6 +53,7 @@ namespace SIS.HTTP.Responses
         {
             StringBuilder result = new StringBuilder();
 
+            // HTTP/1.1 200 OK
             result
                 .Append($"{GlobalConstants.HttpOneProtocolFragment} {(int)this.StatusCode} {this.StatusCode.ToString()}")
                 .Append(GlobalConstants.HttpNewLine)

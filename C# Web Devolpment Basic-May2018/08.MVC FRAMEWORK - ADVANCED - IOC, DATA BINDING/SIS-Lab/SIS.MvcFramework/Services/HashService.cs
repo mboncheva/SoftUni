@@ -1,10 +1,10 @@
-﻿namespace SIS.MvcFramework.Services
-{
-    using SIS.MvcFramework.Logger;
-    using System;
-    using System.Security.Cryptography;
-    using System.Text;
+﻿using System;
+using System.Security.Cryptography;
+using System.Text;
+using SIS.MvcFramework.Logger;
 
+namespace SIS.MvcFramework.Services
+{
     public class HashService : IHashService
     {
         private readonly ILogger logger;
@@ -13,6 +13,7 @@
         {
             this.logger = logger;
         }
+
         public string StrongHash(string stringToHash)
         {
             var result = stringToHash;

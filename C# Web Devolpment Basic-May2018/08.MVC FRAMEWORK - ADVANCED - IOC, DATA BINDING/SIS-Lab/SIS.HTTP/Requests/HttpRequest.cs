@@ -84,7 +84,7 @@ namespace SIS.HTTP.Requests
         private void ParseRequestPath()
         {
             this.Path = 
-                this.Url?.Split(new[] {HttpRequestUrlQuerySeparator, HttpRequestUrlFragmentSeparator}, StringSplitOptions.RemoveEmptyEntries)[0];
+                this.Url.Split(new[] {HttpRequestUrlQuerySeparator, HttpRequestUrlFragmentSeparator}, StringSplitOptions.RemoveEmptyEntries)[0];
         }
 
         private void ParseHeaders(string[] requestContent)
@@ -170,7 +170,7 @@ namespace SIS.HTTP.Requests
             foreach (var formDataParameter in formDataParams)
             {
                 string[] parameterArguments = formDataParameter
-                    .Split(HttpRequestParameterNameValueSeparator); /*StringSplitOptions.RemoveEmptyEntries)*/
+                    .Split(HttpRequestParameterNameValueSeparator, StringSplitOptions.RemoveEmptyEntries);
 
                 this.FormData.Add(parameterArguments[0], parameterArguments[1]);
             }

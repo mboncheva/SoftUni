@@ -23,7 +23,7 @@ namespace SIS.WebServer.Routing
 
         public void Add(HttpRequestMethod method, string path, Func<IHttpRequest, IHttpResponse> func)
         {
-            this.Routes[method].Add(path.ToLower(), func);
+            this.Routes[method].Add(path, func);
         }
     }
 }

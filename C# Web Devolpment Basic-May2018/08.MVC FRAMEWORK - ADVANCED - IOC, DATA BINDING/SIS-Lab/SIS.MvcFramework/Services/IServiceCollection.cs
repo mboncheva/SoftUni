@@ -1,7 +1,8 @@
-﻿namespace SIS.MvcFramework.Services
-{
-    using System;
+﻿using System;
+using SIS.MvcFramework.Logger;
 
+namespace SIS.MvcFramework.Services
+{
     public interface IServiceCollection
     {
         void AddService<TSource, TDestination>();

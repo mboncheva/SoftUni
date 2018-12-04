@@ -1,7 +1,7 @@
-﻿namespace SIS.MvcFramework
-{
-    using System.Net;
+﻿using System.Net;
 
+namespace SIS.MvcFramework
+{
     public static class StringExtensions
     {
         public static string UrlDecode(this string input)
