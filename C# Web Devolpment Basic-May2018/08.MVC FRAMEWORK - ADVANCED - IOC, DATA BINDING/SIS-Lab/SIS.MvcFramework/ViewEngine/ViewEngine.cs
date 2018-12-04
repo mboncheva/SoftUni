@@ -1,15 +1,12 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using System.Runtime.Loader;
 using System.Text;
 using System.Text.RegularExpressions;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
-using Microsoft.CodeAnalysis.Emit;
 
 namespace SIS.MvcFramework.ViewEngine
 {
@@ -99,7 +96,13 @@ namespace MyAppViews
             var stringBuilder = new StringBuilder();
             foreach (var line in lines)
             {
-                if (line.Trim().StartsWith("{") ||
+                if (line.Trim().StartsWith("{") && line.Trim().EndsWith("}"))
+                {
+                    var cSharpLine = line.Trim();
+                    cSharpLine = cSharpLine.Substring(1, cSharpLine.Length - 2);
+                    stringBuilder.AppendLine(cSharpLine);
+                }
+                else if (line.Trim().StartsWith("{") ||
                     line.Trim().StartsWith("}") ||
                     line.Trim().StartsWith("@for") ||
                     line.Trim().StartsWith("@else") ||
