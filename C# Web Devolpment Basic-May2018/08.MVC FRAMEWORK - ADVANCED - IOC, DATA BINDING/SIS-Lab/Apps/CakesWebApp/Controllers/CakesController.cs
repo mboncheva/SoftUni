@@ -28,12 +28,13 @@
         {
             // TODO: Validation
 
-            var product = new Product
-            {
-                Name = model.Name,
-                Price = model.Price,
-                ImageUrl = model.Picture.Trim()
-            };
+            var product = model.To<Product>();
+            //var product = new Product
+            //{
+            //    Name = model.Name,
+            //    Price = model.Price,
+            //    ImageUrl = model.Picture.Trim()
+            //};
 
             this.Db.Products.Add(product);
 
@@ -48,7 +49,7 @@
             }
 
             // Redirect
-            return this.Redirect("/");
+            return this.Redirect("/cakes/view?id=" + product.Id);
         }
 
         [HttpGet("/cakes/view")]
@@ -61,12 +62,13 @@
                 return this.BadRequestError("Cake not found.");
             }
 
-            var viewModel = new CakeViewModel
-            {
-                Name = product.Name,
-                Price = product.Price,
-                ImageUrl = product.ImageUrl,
-            };
+            var viewModel = product.To<CakeViewModel>();
+            //var viewModel = new CakeViewModel
+            //{
+            //    Name = product.Name,
+            //    Price = product.Price,
+            //    ImageUrl = product.ImageUrl,
+            //};
 
             return this.View("CakeById", viewModel);
         }

@@ -107,7 +107,6 @@
             {
                 return this.BadRequestError("Order not found.");
             }
-            var a = DateTime.UtcNow;
             var newEmptyOrder  = new Order
             {
                 UserId = userId.Value
