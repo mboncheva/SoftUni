@@ -3,7 +3,7 @@
     using Microsoft.EntityFrameworkCore;
     using MishMashWebApp.Models;
 
-    class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : DbContext
     {
         public DbSet<User> Users { get; set; }
 
