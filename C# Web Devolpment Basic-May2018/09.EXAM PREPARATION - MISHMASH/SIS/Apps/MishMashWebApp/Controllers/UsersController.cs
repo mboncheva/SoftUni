@@ -82,13 +82,19 @@
             // Hash password
             var hashedPassword = this.hashService.Hash(model.Password);
 
+            var role = Role.User;
+            if (!this.Db.Users.Any())
+            {
+                role = Role.Admin;
+            }
+
             // Create user
             var user = new User
             {
                 Email = model.Email.Trim(),
                 Username = model.Username.Trim(),
                 Password = hashedPassword,
-                 Role= Role.User
+                Role= role
             };
             this.Db.Users.Add(user);
 
