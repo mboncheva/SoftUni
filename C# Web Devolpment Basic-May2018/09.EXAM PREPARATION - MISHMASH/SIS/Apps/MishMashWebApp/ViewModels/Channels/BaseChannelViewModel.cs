@@ -2,7 +2,7 @@
 {
     using MishMashWebApp.Models;
 
-    public class FollowedChannelViewModel
+    public class BaseChannelViewModel
     {
         public int Id { get; set; }
 

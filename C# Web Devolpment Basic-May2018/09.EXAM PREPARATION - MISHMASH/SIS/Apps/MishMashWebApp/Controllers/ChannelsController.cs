@@ -41,7 +41,7 @@
             }
             var followedChannels = this.Db.Channels.Where(
                    x => x.Followers.Any(f => f.User.Username == this.User))
-                           .Select(x => new FollowedChannelViewModel
+                           .Select(x => new BaseChannelViewModel
                            {
                                Id = x.Id,
                                Type = x.ChannelType,
