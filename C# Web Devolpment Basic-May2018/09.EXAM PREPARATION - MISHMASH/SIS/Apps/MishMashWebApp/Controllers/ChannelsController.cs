@@ -127,7 +127,7 @@
                 Descripition = model.Description,
             };
 
-            if (!string.IsNullOrWhiteSpace(model.Tags)rue)
+            if (!string.IsNullOrWhiteSpace(model.Tags))
             {
                 var tags = model.Tags.Split(new[] { ',', ';' }, StringSplitOptions.RemoveEmptyEntries);
                 foreach (var tag in tags)
