@@ -51,7 +51,7 @@
                         FollowersCount = x.Followers.Count(),
                     }).ToList();
 
-                return this.View("Home/LoggedInIndex", viewModel);
+                return this.View("Home/LoggedIn-Index", viewModel);
             }
             else
             {
