@@ -11,6 +11,5 @@
         }
 
         protected CakesDbContext Db { get; }
-
     }
 }

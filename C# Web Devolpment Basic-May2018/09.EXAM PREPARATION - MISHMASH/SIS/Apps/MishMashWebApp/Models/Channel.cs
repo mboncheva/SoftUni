@@ -14,9 +14,9 @@
 
         public string Name { get; set; }
 
-        public string Descripition { get; set; }
+        public string Description { get; set; }
 
-        public ChannelType ChannelType { get; set; }
+        public ChannelType Type { get; set; }
 
         public virtual ICollection<ChannelTag> Tags { get; set; }
 

@@ -1,8 +1,6 @@
-﻿using System.Collections;
-using System.Net;
-
-namespace SIS.HTTP.Cookies
+﻿namespace SIS.HTTP.Cookies
 {
+    using System.Collections;
     using System.Collections.Generic;
     using Common;
 

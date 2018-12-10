@@ -1,13 +1,13 @@
-﻿using MishMashWebApp.Models;
-using System.Collections.Generic;
-
-namespace MishMashWebApp.ViewModels.Channels
+﻿namespace MishMashWebApp.ViewModels.Channels
 {
+    using System.Collections.Generic;
+    using MishMashWebApp.Models;
+
     public class ChannelViewModel
     {
         public string Name { get; set; }
 
-        public ChannelType Type{ get; set; }
+        public ChannelType Type { get; set; }
 
         public string Description { get; set; }
 

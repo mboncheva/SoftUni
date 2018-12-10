@@ -1,16 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using SIS.HTTP.Common;
-using SIS.HTTP.Cookies;
-using SIS.HTTP.Enums;
-using SIS.HTTP.Exceptions;
-using SIS.HTTP.Extensions;
-using SIS.HTTP.Headers;
-using SIS.HTTP.Sessions;
-
-namespace SIS.HTTP.Requests
+﻿namespace SIS.HTTP.Requests
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using SIS.HTTP.Common;
+    using SIS.HTTP.Cookies;
+    using SIS.HTTP.Enums;
+    using SIS.HTTP.Exceptions;
+    using SIS.HTTP.Extensions;
+    using SIS.HTTP.Headers;
+    using SIS.HTTP.Sessions;
+
     public class HttpRequest : IHttpRequest
     {
         private const char HttpRequestUrlQuerySeparator = '?';

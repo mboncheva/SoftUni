@@ -1,7 +1,6 @@
-using System;
-
 namespace SIS.HTTP.Cookies
 {
+    using System;
     using Common;
     using System.Text;
 

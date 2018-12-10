@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
-using SIS.HTTP.Common;
-
-namespace SIS.HTTP.Headers
+﻿namespace SIS.HTTP.Headers
 {
+    using System.Collections.Generic;
+    using SIS.HTTP.Common;
+
     public class HttpHeaderCollection : IHttpHeaderCollection
     {
         private readonly Dictionary<string, HttpHeader> headers;

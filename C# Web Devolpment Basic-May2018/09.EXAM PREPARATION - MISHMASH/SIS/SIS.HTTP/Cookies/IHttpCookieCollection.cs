@@ -1,9 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Net;
-
-namespace SIS.HTTP.Cookies
+﻿namespace SIS.HTTP.Cookies
 {
+    using System.Collections.Generic;
+
     public interface IHttpCookieCollection : IEnumerable<HttpCookie>
     {
         void Add(HttpCookie cookie);

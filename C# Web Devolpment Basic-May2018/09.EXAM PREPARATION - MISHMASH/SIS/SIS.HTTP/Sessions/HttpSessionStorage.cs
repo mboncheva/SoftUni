@@ -1,7 +1,7 @@
-﻿using System.Collections.Concurrent;
-
-namespace SIS.HTTP.Sessions
+﻿namespace SIS.HTTP.Sessions
 {
+    using System.Collections.Concurrent;
+
     public class HttpSessionStorage
     {
         public const string SessionCookieKey = "SIS_ID";

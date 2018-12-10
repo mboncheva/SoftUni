@@ -13,7 +13,7 @@
         protected override void OnConfiguring(
             DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS;Database=Cakes;Integrated Security=True;").UseLazyLoadingProxies();
+            optionsBuilder.UseSqlServer("Server=.;Database=Cakes;Integrated Security=True;").UseLazyLoadingProxies();
         }
     }
 }

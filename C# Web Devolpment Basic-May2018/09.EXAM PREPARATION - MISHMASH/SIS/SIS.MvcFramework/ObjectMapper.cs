@@ -11,6 +11,7 @@
         {
             var destination = new T();
             var destinationProperties = destination.GetType().GetProperties();
+
             foreach (var destinationProperty in destinationProperties)
             {
                 if (destinationProperty.SetMethod == null)
@@ -19,7 +20,7 @@
                 }
 
                 var sourceProperty = source.GetType().GetProperties()
-                   .FirstOrDefault(x => x.Name.ToLower() == destinationProperty.Name.ToLower());
+                    .FirstOrDefault(x => x.Name.ToLower() == destinationProperty.Name.ToLower());
                 if (sourceProperty?.GetMethod != null)
                 {
                     var sourceValue = sourceProperty.GetMethod.Invoke(source, new object[0]);
@@ -33,8 +34,6 @@
                         var destinationValue = TryParse(sourceValue.ToString(), destinationProperty.PropertyType);
                         destinationProperty.SetMethod.Invoke(destination, new[] { destinationValue });
                     }
-                    //var destinationValue = TryParse(sourceValue.ToString(), destinationProperty.PropertyType);
-                    //destinationProperty.SetMethod.Invoke(destination, new[] { destinationValue });
                 }
             }
 
@@ -69,6 +68,7 @@
                     value = stringValue;
                     break;
             }
+
             return value;
         }
     }

@@ -1,10 +1,10 @@
-﻿using SIS.HTTP.Enums;
-
-namespace SIS.MvcFramework
+﻿namespace SIS.MvcFramework
 {
+    using SIS.HTTP.Enums;
+
     public class HttpGetAttribute : HttpAttribute
     {
-        public HttpGetAttribute(string path)
+        public HttpGetAttribute(string path = null)
             : base(path)
         {
         }

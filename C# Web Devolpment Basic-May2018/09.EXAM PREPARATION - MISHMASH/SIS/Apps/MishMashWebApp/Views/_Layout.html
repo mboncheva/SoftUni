@@ -23,26 +23,31 @@
                         <li class="nav-item">
                             <a class="nav-link nav-link-white active" href="/">Home</a>
                         </li>
-                        @if (User == null)
+                        @if (User.IsLoggedIn)
                         {
                             <li class="nav-item">
-                                <a class="nav-link nav-link-white active" href="/users/login">Login</a>
+                                <a class="nav-link nav-link-white active" href="/Channels/Followed">My Channels</a>
                             </li>
+                            @if (User.Role == "Admin")
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link nav-link-white active" href="/Channels/Create">Create channel</a>
+                                </li>
+                            }
                             <li class="nav-item">
-                                <a class="nav-link nav-link-white active" href="/users/register">Register</a>
+                                <a class="nav-link nav-link-white active" href="/Users/Logout">Logout (@User.Info)</a>
                             </li>
                         }
                         @else
                         {
                             <li class="nav-item">
-                                <a class="nav-link nav-link-white active" href="/channels/followed">My Channels</a>
+                                <a class="nav-link nav-link-white active" href="/Users/Login">Login</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link nav-link-white active" href="/users/logout">Logout</a>
+                                <a class="nav-link nav-link-white active" href="/Users/Register">Register</a>
                             </li>
                         }
                     </ul>
-
                 </div>
             </nav>
         </header>

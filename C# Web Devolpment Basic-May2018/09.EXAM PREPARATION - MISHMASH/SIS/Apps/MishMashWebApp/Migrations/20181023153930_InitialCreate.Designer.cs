@@ -9,14 +9,14 @@ using MishMashWebApp.Data;
 namespace MishMashWebApp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20181205200920_InitialCreate")]
+    [Migration("20181023153930_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.2.0-rtm-35687")
+                .HasAnnotation("ProductVersion", "2.1.4-rtm-31024")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -26,11 +26,11 @@ namespace MishMashWebApp.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("ChannelType");
-
-                    b.Property<string>("Descripition");
+                    b.Property<string>("Description");
 
                     b.Property<string>("Name");
+
+                    b.Property<int>("Type");
 
                     b.HasKey("Id");
 

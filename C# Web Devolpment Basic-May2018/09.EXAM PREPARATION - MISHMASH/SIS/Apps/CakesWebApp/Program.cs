@@ -6,8 +6,7 @@
     {
         public static void Main(string[] args)
         {
-            var mvcApplication = new StartUp();
-            WebHost.Start(mvcApplication);
+            WebHost.Start(new Startup());
         }
     }
 }

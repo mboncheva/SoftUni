@@ -6,6 +6,6 @@
         Motivation = 2,
         Lessons = 3,
         Radio = 4,
-        Others = 5
+        Other = 5,
     }
 }

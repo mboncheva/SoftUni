@@ -14,8 +14,8 @@ namespace MishMashWebApp.Migrations
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     Name = table.Column<string>(nullable: true),
-                    Descripition = table.Column<string>(nullable: true),
-                    ChannelType = table.Column<int>(nullable: false)
+                    Description = table.Column<string>(nullable: true),
+                    Type = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {

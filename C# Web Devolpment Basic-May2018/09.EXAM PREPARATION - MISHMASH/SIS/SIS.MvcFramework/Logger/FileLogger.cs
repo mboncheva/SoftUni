@@ -1,8 +1,8 @@
-﻿using System;
-using System.IO;
-
-namespace SIS.MvcFramework.Logger
+﻿namespace SIS.MvcFramework.Logger
 {
+    using System;
+    using System.IO;
+
     public class FileLogger : ILogger
     {
         private static readonly object LockObject = new object();

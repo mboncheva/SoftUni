@@ -1,13 +1,12 @@
-﻿using System;
-using System.Net.Sockets;
-using System.Text;
-using System.Threading.Tasks;
-using SIS.HTTP.Cookies;
-using SIS.HTTP.Enums;
-using SIS.WebServer.Results;
-
-namespace SIS.WebServer
+﻿namespace SIS.WebServer
 {
+    using System;
+    using System.Net.Sockets;
+    using System.Text;
+    using System.Threading.Tasks;
+    using SIS.HTTP.Cookies;
+    using SIS.HTTP.Enums;
+    using SIS.WebServer.Results;
     using HTTP.Common;
     using HTTP.Exceptions;
     using HTTP.Requests;
@@ -118,6 +117,8 @@ namespace SIS.WebServer
 
                 if (httpRequest != null)
                 {
+                    Console.WriteLine($"Processing: {httpRequest.RequestMethod} {httpRequest.Path}...");
+
                     string sessionId = this.SetRequestSession(httpRequest);
 
                     var httpResponse = this.HandleRequest(httpRequest);

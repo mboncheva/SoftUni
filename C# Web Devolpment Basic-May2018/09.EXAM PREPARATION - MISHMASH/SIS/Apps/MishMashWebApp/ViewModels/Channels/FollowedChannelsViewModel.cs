@@ -7,3 +7,4 @@
         public IEnumerable<BaseChannelViewModel> FollowedChannels { get; set; }
     }
 }
+

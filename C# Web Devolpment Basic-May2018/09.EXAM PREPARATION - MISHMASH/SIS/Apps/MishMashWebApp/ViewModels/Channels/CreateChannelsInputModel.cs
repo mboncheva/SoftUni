@@ -9,6 +9,5 @@
         public string Tags { get; set; }
 
         public string Type { get; set; }
-
     }
 }

@@ -1,13 +1,12 @@
-﻿using System.Linq;
-using System.Text;
-using SIS.HTTP.Common;
-using SIS.HTTP.Cookies;
-using SIS.HTTP.Enums;
-using SIS.HTTP.Extensions;
-using SIS.HTTP.Headers;
-
-namespace SIS.HTTP.Responses
+﻿namespace SIS.HTTP.Responses
 {
+    using System.Linq;
+    using System.Text;
+    using SIS.HTTP.Common;
+    using SIS.HTTP.Cookies;
+    using SIS.HTTP.Enums;
+    using SIS.HTTP.Headers;
+
     public class HttpResponse : IHttpResponse
     {
         public HttpResponse()

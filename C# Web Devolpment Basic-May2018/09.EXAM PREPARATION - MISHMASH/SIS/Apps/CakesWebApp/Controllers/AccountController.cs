@@ -1,15 +1,15 @@
 ﻿namespace CakesWebApp.Controllers
 {
     using System;
-    using Microsoft.EntityFrameworkCore.Internal;
     using SIS.HTTP.Responses;
     using System.Linq;
     using CakesWebApp.Models;
-    using SIS.HTTP.Cookies;
-    using SIS.MvcFramework.Services;
-    using SIS.MvcFramework;
     using CakesWebApp.ViewModels.Account;
+    using SIS.HTTP.Cookies;
+    using SIS.MvcFramework;
+    using SIS.MvcFramework.Services;
 
+    // account/register
     public class AccountController : BaseController
     {
         private readonly IHashService hashService;
@@ -28,7 +28,6 @@
         [HttpPost("/account/register")]
         public IHttpResponse DoRegister(DoRegisterInputModel model)
         {
-           
             // Validate
             if (string.IsNullOrWhiteSpace(model.Username) || model.Username.Trim().Length < 4)
             {
@@ -89,7 +88,7 @@
         {
             var hashedPassword = this.hashService.Hash(model.Password);
 
-            var user = this.Db.Users.FirstOrDefault(x =>
+            var user = this.Db.Users.FirstOrDefault(x => 
                 x.Username == model.Username.Trim() &&
                 x.Password == hashedPassword);
 
@@ -98,7 +97,8 @@
                 return this.BadRequestError("Invalid username or password.");
             }
 
-            var cookieContent = this.UserCookieService.GetUserCookie(user.Username);
+            var mvcUser = new MvcUserInfo { Username = user.Username };
+            var cookieContent = this.UserCookieService.GetUserCookie(mvcUser);
 
             var cookie = new HttpCookie(".auth-cakes", cookieContent, 7) { HttpOnly = true };
             this.Response.Cookies.Add(cookie);
@@ -119,5 +119,4 @@
             return this.Redirect("/");
         }
     }
-
 }

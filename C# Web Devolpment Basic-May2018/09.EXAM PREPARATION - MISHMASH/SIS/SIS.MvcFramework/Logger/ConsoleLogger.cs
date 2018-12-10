@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace SIS.MvcFramework.Logger
+﻿namespace SIS.MvcFramework.Logger
 {
+    using System;
+
     public class ConsoleLogger : ILogger
     {
         public void Log(string message)

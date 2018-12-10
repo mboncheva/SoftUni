@@ -1,11 +1,11 @@
-﻿using System.Collections.Generic;
-using SIS.HTTP.Cookies;
-using SIS.HTTP.Enums;
-using SIS.HTTP.Headers;
-using SIS.HTTP.Sessions;
-
-namespace SIS.HTTP.Requests
+﻿namespace SIS.HTTP.Requests
 {
+    using System.Collections.Generic;
+    using SIS.HTTP.Cookies;
+    using SIS.HTTP.Enums;
+    using SIS.HTTP.Headers;
+    using SIS.HTTP.Sessions;
+
     public interface IHttpRequest
     {
         string Path { get; }

@@ -1,10 +1,10 @@
-﻿using System;
-using System.Security.Cryptography;
-using System.Text;
-using SIS.MvcFramework.Logger;
-
-namespace SIS.MvcFramework.Services
+﻿namespace SIS.MvcFramework.Services
 {
+    using System;
+    using System.Security.Cryptography;
+    using System.Text;
+    using SIS.MvcFramework.Logger;
+
     public class HashService : IHashService
     {
         private readonly ILogger logger;

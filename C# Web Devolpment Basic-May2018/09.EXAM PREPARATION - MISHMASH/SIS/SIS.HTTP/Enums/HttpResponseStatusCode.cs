@@ -1,7 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace SIS.HTTP.Enums
+﻿namespace SIS.HTTP.Enums
 {
+    using System.ComponentModel.DataAnnotations;
+
     public enum HttpResponseStatusCode
     {
         Ok = 200,

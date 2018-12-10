@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CakesWebApp.Migrations
 {
     [DbContext(typeof(CakesDbContext))]
-    [Migration("20181113230557_Initial")]
-    partial class Initial
+    [Migration("20181002162455_ModelsImplemented")]
+    partial class ModelsImplemented
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

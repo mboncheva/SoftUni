@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using SIS.HTTP.Enums;
-using SIS.HTTP.Requests;
-using SIS.HTTP.Responses;
-
-namespace SIS.WebServer.Routing
+﻿namespace SIS.WebServer.Routing
 {
+    using System;
+    using System.Collections.Generic;
+    using SIS.HTTP.Enums;
+    using SIS.HTTP.Requests;
+    using SIS.HTTP.Responses;
+
     public class ServerRoutingTable
     {
         public ServerRoutingTable()

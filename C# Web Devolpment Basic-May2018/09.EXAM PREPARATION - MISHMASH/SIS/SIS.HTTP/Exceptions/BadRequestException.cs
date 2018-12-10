@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace SIS.HTTP.Exceptions
+﻿namespace SIS.HTTP.Exceptions
 {
+    using System;
+
     public class BadRequestException : Exception
     {
         private const string BadRequestMessage = "The Request is malformed.";

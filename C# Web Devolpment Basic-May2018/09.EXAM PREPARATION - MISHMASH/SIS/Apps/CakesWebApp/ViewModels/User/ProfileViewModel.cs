@@ -6,9 +6,8 @@
     {
         public string Username { get; set; }
 
-        public DateTime RegisterOn { get; set; }
+        public DateTime RegisteredOn { get; set; }
 
         public int OrdersCount { get; set; }
-
     }
 }

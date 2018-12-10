@@ -6,9 +6,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Migrations\20181113225715_change.cs" />
-    <Compile Remove="Migrations\20181113225851_change.cs" />
-    <Compile Remove="Migrations\20181113225951_change.cs" />
+    <Compile Remove="Services\**" />
+    <Compile Remove="ViewModels\Home\**" />
+    <Compile Remove="wwwroot\**" />
+    <EmbeddedResource Remove="Services\**" />
+    <EmbeddedResource Remove="ViewModels\Home\**" />
+    <EmbeddedResource Remove="wwwroot\**" />
+    <None Remove="Services\**" />
+    <None Remove="ViewModels\Home\**" />
+    <None Remove="wwwroot\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,15 +24,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Views\OrderById.html">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Views\OrdersList.html">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Views\Profile.html">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <ProjectReference Include="..\..\SIS.MvcFramework\SIS.MvcFramework.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="Views\CakeById.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -37,6 +38,15 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Views\HelloUser.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Views\OrderById.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Views\OrdersList.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Views\Profile.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Views\Search.html">
@@ -57,12 +67,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
-    <Folder Include="ViewModels\Home\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\SIS.MvcFramework\SIS.MvcFramework.csproj" />
+    <Reference Include="System.Private.Xml.Linq">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.9\System.Private.Xml.Linq.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

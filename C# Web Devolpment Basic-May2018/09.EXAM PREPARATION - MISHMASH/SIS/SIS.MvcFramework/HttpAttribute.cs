@@ -1,8 +1,8 @@
-﻿using System;
-using SIS.HTTP.Enums;
-
-namespace SIS.MvcFramework
+﻿namespace SIS.MvcFramework
 {
+    using System;
+    using SIS.HTTP.Enums;
+
     public abstract class HttpAttribute : Attribute
     {
         protected HttpAttribute(string path)

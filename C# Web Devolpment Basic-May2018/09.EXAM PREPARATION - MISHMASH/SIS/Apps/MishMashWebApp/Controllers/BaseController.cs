@@ -3,14 +3,13 @@
     using MishMashWebApp.Data;
     using SIS.MvcFramework;
 
-    public abstract class BaseController : Controller
+    public class BaseController : Controller
     {
-        protected BaseController()
+        public BaseController()
         {
             this.Db = new ApplicationDbContext();
         }
 
         protected ApplicationDbContext Db { get; }
-
     }
 }

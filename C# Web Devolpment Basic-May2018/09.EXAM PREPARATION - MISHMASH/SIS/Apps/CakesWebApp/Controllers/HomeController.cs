@@ -14,12 +14,12 @@
         [HttpGet("/hello")]
         public IHttpResponse HelloUser()
         {
-            return this.View("HelloUser", new HelloUserViewModel { Username = this.User });
+            return this.View("HelloUser", new HelloUserViewModel { Username = this.User.Username });
         }
+    }
 
-        public class HelloUserViewModel
-        {
-            public string Username { get; set; }
-        }
+    public class HelloUserViewModel
+    {
+        public string Username { get; set; }
     }
 }

@@ -1,9 +1,9 @@
-﻿using SIS.HTTP.Cookies;
-using SIS.HTTP.Enums;
-using SIS.HTTP.Headers;
-
-namespace SIS.HTTP.Responses
+﻿namespace SIS.HTTP.Responses
 {
+    using SIS.HTTP.Cookies;
+    using SIS.HTTP.Enums;
+    using SIS.HTTP.Headers;
+
     public interface IHttpResponse
     {
         HttpResponseStatusCode StatusCode { get; set; }

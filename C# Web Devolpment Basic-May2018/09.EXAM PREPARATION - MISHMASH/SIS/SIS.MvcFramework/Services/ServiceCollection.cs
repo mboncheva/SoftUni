@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace SIS.MvcFramework.Services
+﻿namespace SIS.MvcFramework.Services
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
     public class ServiceCollection : IServiceCollection
     {
         private readonly IDictionary<Type, Type> dependencyContainer;

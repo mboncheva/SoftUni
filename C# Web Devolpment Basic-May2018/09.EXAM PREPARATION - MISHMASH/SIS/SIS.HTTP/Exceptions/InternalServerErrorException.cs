@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace SIS.HTTP.Exceptions
+﻿namespace SIS.HTTP.Exceptions
 {
+    using System;
+
     public class InternalServerErrorException : Exception
     {
         private const string InternalServerErrorExceptionMessage = "The Server has encountered an error.";
