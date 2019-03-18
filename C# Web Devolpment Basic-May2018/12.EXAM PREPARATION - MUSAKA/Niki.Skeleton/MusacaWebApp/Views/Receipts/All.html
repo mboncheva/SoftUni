@@ -1,0 +1,32 @@
+﻿<h1 class="text-center text-musaca">All Receipts</h1>
+<hr class="bg-musaca hr-2" />
+
+<div class="d-flex justify-content-between">
+    <table class="table table-bordered border-musaca">
+        <thead>
+            <tr class="row">
+                <th scope="col" class="col-lg-5 d-flex justify-content-center text-musaca"><h4>Id</h4></th>
+                <th scope="col" class="col-lg-2 d-flex justify-content-center text-musaca"><h4>Total</h4></th>
+                <th scope="col" class="col-lg-2 d-flex justify-content-center text-musaca"><h4>Issued On</h4></th>
+                <th scope="col" class="col-lg-2 d-flex justify-content-center text-musaca"><h4>Cashier</h4></th>
+                <th scope="col" class="col-lg-1 d-flex justify-content-center text-musaca"><h4>Actions</h4></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var receipt in Model.Receipts)
+            {
+            <tr class="row">
+                <th scope="row" class="col-lg-5 d-flex justify-content-center"><h5>@receipt.Id</h5></th>
+                <td class="col-lg-2 d-flex justify-content-center"><h5>$@receipt.Total</h5></td>
+                <td class="col-lg-2 d-flex justify-content-center"><h5>@receipt.IssuedOn</h5></td>
+                <td class="col-lg-2 d-flex justify-content-center"><h5>@receipt.Cashier</h5></td>
+                <td class="col-lg-1 d-flex justify-content-center">
+                    <a href="/receipts/details?id=@receipt.Id" class="btn bg-musaca text-white">Details</a>
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+

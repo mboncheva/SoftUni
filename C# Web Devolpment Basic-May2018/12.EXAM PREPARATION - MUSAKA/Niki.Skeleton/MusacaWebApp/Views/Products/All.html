@@ -1,0 +1,36 @@
+﻿<div class="products">
+    <div class="product-row d-flex justify-content-between mt-4">
+        @foreach(var image in Model.Products)
+        {
+        <div class="product d-flex justify-content-between w-25">
+
+            @if (@image.PictureUrl == null)
+            {
+            <div class="image-holder w-25">
+                <img src="../../Resources/product.png" alt="..." class="img-thumbnail" height="100" width="100">
+            </div>
+            }
+            @else
+            {
+            <div class="image-holder w-25">
+                <img src="@image.PictureUrl" alt="..." class="img-thumbnail" height="100" width="100">
+            </div>
+            }
+            <div class="data-holder w-75 px-3 mt-2">
+                <div class="text-holder d-flex justify-content-between">
+                    <h6>Name:</h6>
+                    <h6>@image.Name</h6>
+                </div>
+                <div class="text-holder d-flex justify-content-between">
+                    <h6>Price:</h6>
+                    <h6>@image.Price</h6>
+                </div>
+                <div class="text-holder d-flex justify-content-between">
+                    <h6>Barcode:</h6>
+                    <h6>@image.Barcode</h6>
+                </div>
+            </div>
+        </div>
+        }
+    </div>
+</div>

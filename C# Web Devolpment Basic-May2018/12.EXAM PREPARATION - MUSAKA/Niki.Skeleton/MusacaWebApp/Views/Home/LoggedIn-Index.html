@@ -1,0 +1,49 @@
+﻿<form class="form-inline" method="post" action="/home/order">
+    <div class="form-group mb-2 border-musaca">
+        <label for="product" class="sr-only">Product</label>
+        <input type="text" style="color:limegreen" readonly class="form-control-plaintext" id="product" value="Product">
+    </div>
+    <div class="form-group mx-sm-3 mb-2">
+        <label for="barcode" class="sr-only">Barcode</label>
+        <input type="number" min="0" class="form-control" id="barcode" placeholder="Barcode..." name="barcode">
+    </div>
+    <div class="form-group mx-sm-3 mb-2">
+        <label for="quantity" class="sr-only">Quantity</label>
+        <input type="number" min="0" class="form-control" id="quantity" placeholder="Quantity..." name="quantity">
+    </div>
+    <button type="submit" class="btn bg-musaca text-white mb-2">Order</button>
+</form>
+
+@if (Model.Orders.Any())
+{
+<table class="table">
+    <thead style="border-top: 3px solid #32CD32">
+        <tr style="border-bottom: 3px solid #32CD32">
+            <th>Product Name</th>
+            <th>Quantity</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var order in Model.Orders)
+        {
+        <tr style="border: white"> 
+            <td>@order.ProductName</td>
+            <td>x@order.Quantity</td>
+            <td>@order.Price</td>
+        </tr>
+        }
+        <tr style="border-top: 3px solid #32CD32">
+            <td colspan="2">
+                <form class="form-inline" method="post" action="/receipts/create">
+                    <button type="submit" class="btn bg-musaca text-white mb-2">Cashout</button>
+                </form>
+            </td>
+            <td scope="row"> 
+                Total: $@Model.TotalPrice
+            </td>
+        </tr>
+    </tbody>
+</table>
+}
+
